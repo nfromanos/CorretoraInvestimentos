@@ -1,15 +1,20 @@
 package dominios;
 
+import java.util.ArrayList;
+
 public class Cliente extends Usuario {
 
-    private int identificador;
+    private final String inscricao;
 
-    public Cliente(String nome, String sobrenome, String usuario, String senha, int identificador) {
+    public Cliente(String nome, String sobrenome, String usuario, String senha, String inscricao) {
         super(nome, sobrenome, usuario, senha);
-        this.identificador = identificador;
+        this.inscricao = inscricao;
     }
 
-    public int getIdentificador() {
-        return identificador;
+    public String getInscricao() {
+        return inscricao;
     }
+
+
+
 }

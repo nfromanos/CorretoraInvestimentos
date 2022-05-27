@@ -1,8 +1,11 @@
 package dominios;
+import java.util.ArrayList;
 
 public class Corretora extends Usuario{
 
-    private int identificador;
+    private final int identificador;
+
+    private ArrayList<Corretora> listaDeAdministradores;
 
     public Corretora(String nome, String sobrenome, String usuario, String senha, int identificador) {
         super(nome, sobrenome, usuario, senha);
@@ -12,4 +15,5 @@ public class Corretora extends Usuario{
     public int getIdentificador() {
         return identificador;
     }
+
 }
