@@ -5,9 +5,13 @@ public enum PerfilInvestimentos {
     MODERADO(2),
     AGRESSIVO(3);
 
-    private int pontuacao;
+    private final int pontuacao;
 
     PerfilInvestimentos(int pontuacao) {
         this.pontuacao = pontuacao;
+    }
+
+    public int getPontuacao() {
+        return pontuacao;
     }
 }

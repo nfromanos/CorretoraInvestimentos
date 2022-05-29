@@ -5,10 +5,12 @@ import java.util.ArrayList;
 public class Cliente extends Usuario {
 
     private final String inscricao;
+    private final String perfil;
 
-    public Cliente(String nome, String sobrenome, String usuario, String senha, String inscricao) {
-        super(nome, sobrenome, usuario, senha);
+    public Cliente(String nome, String sobrenome, String login, String senha, String inscricao, String perfil) {
+        super(nome, sobrenome, login, senha);
         this.inscricao = inscricao;
+        this.perfil = perfil;
     }
 
     public String getInscricao() {
