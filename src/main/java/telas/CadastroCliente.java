@@ -9,7 +9,6 @@ public class CadastroCliente {
     public void criar() {
 
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Entre o seu nome:");
         String nome = scanner.next();
         System.out.println("Entre o seu sobrenome:");
