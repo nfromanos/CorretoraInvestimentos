@@ -17,13 +17,12 @@ public class CadastroCliente {
         String inscricao = scanner.next();
         System.out.println("Entre o seu perfil de investidor\nCONSERVADOR\nMODERADO\nAGRESSIVO");
         String perfil = scanner.next();
-        PerfilInvestimentos perfilEnum = PerfilInvestimentos.valueOf(perfil);
         System.out.println("Entre o login:");
         String login = scanner.next();
         System.out.println("Entre a senha:");
         String senha = scanner.next();
 
-        Cliente cliente = new Cliente(nome, sobrenome, login, senha, inscricao, perfilEnum);
+        Cliente cliente = new Cliente(nome, sobrenome, login, senha, inscricao, perfil);
         ClientRepository.AddCliente(cliente);
 
         ClientRepository.getListaDeClientes();

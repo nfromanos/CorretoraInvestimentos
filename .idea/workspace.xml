@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Atualizacao 1">
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Atualizacao 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-    </list>
-    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/PerfilInvestimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/PerfilInvestimentos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Menu.java" afterDir="false" />
     </list>
+    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,31 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java">
-      <ranges>
-        <range start1="11" end1="12" start2="11" end2="11" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-        <range start1="20" end1="20" start2="19" end2="20" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="25" end1="26" start2="25" end2="26" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/dominios/Cliente.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-        <range start1="7" end1="8" start2="9" end2="10" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="9" end1="10" start2="11" end2="12" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="12" end1="13" start2="14" end2="15" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="19" end1="21" start2="21" end2="21" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="6" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="17" end1="31" start2="20" end2="43" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="33" end1="34" start2="45" end2="45" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Nicolau/IdeaProjects/corretora",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nicolau/IdeaProjects/corretora&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projetos\CorretoraInvestimentos" />
@@ -145,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653790348333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atualizacao 2">
+      <created>1653792916336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653792916336</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes by jpdef">
+      <created>1653792930729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653792930729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +154,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Atualizacao inicial sábado" />
     <MESSAGE value="Atualizacao 1" />
+    <MESSAGE value="Atualizacao 2" />
     <MESSAGE value="Changes by jpdef" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes by jpdef" />
   </component>

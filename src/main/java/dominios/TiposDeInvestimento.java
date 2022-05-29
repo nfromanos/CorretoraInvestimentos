@@ -15,9 +15,15 @@ public enum TiposDeInvestimento {
         return variacaoDoAtivo;
     }
 
+    public void getTiposDeOpcoes(){
+        for (TiposDeInvestimento tipo : TiposDeInvestimento.values()) {
+            System.out.println(tipo);
+        }
+    }
+
     TiposDeInvestimento(double variacaoDoAtivo) {
         this.variacaoDoAtivo = variacaoDoAtivo;
-        this.agora = LocalDateTime.now();
+//        this.agora = LocalDateTime.now();
     }
 
     TiposDeInvestimento(double variacaoDoAtivo, LocalDateTime agora) {

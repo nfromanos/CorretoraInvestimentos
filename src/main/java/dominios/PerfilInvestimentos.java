@@ -1,17 +1,17 @@
 package dominios;
 
 public enum PerfilInvestimentos {
-    CONSERVADOR(1),
-    MODERADO(2),
-    AGRESSIVO(3);
+    CONSERVADOR("TESOURO"),
+    MODERADO("FUNDOS"),
+    AGRESSIVO("ACÃO");
 
-    private final int pontuacao;
+    private final String investimentoRecomendado;
 
-    PerfilInvestimentos(int pontuacao) {
-        this.pontuacao = pontuacao;
+    PerfilInvestimentos(String pontuacao) {
+        this.investimentoRecomendado = pontuacao;
     }
 
-    public int getPontuacao() {
-        return pontuacao;
+    public String getInvestimentoRecomendado() {
+        return investimentoRecomendado;
     }
 }

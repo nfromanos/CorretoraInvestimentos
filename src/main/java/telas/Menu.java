@@ -1,4 +1,6 @@
 package telas;
+import dominios.TiposDeInvestimento;
+
 import java.util.Scanner;
 
 public class Menu {
