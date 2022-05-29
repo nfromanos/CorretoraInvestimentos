@@ -4,25 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Atualizacao inicial sábado">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/PerfilInvestimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/PerfilInvestimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Menu.java" afterDir="false" />
+    </list>
+    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Rendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Rendimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/pom.xml">
+      <ranges>
+        <range start1="16" end1="18" start2="16" end2="18" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="73" end1="73" start2="73" end2="83" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/dominios/Usuario.java">
+      <ranges>
+        <range start1="8" end1="8" start2="8" end2="9" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="9" end1="10" start2="10" end2="11" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="12" end1="13" start2="13" end2="14" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,6 +118,14 @@
       <updated>1653686258360</updated>
       <workItem from="1653686259762" duration="340000" />
     </task>
+    <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
+      <created>1653784966773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653784966773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Atualizacao inicial sábado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizacao inicial sábado" />
   </component>
 </project>

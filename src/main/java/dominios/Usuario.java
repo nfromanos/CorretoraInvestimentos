@@ -7,10 +7,10 @@ public class Usuario {
     protected String login;
     protected String senha;
 
-    public Usuario(String nome, String sobrenome, String usuario, String senha) {
+    public Usuario(String nome, String sobrenome, String login, String senha) {
         this.nome = nome;
         this.sobrenome = sobrenome;
-        this.login = usuario;
+        this.login = login;
         this.senha = senha;
     }
 

@@ -1,6 +1,6 @@
 package telas;
 import dominios.Cliente;
-import java.util.ArrayList;
+import dominios.TiposDeInvestimento;
 import java.util.Scanner;
 
 import static repositorio.ClientRepository.listaDeClientes;
@@ -17,11 +17,18 @@ public class AcessoCliente {
 
         for (Cliente usuario : listaDeClientes) {
             if(usuario.getLogin().equals(login) && usuario.getSenha().equals(senha)){
-                System.out.println("Usuário encontrado, entre a opção desejada:");
+                System.out.println("Usuário encontrado, entre a opção desejada:\n1 - Investir\n2 - Retirar investimento\n3 - Acompanhar os investimentos\n4 - Ver tipos de investimentos");
+                switch(scanner.next()){
+                    case "1":
+                        System.out.println("Qual opção");
+                    case "2":
+                    case "3":
+                    case "4":
+                        for(TiposDeInvestimento investimento : TiposDeInvestimento.values()){
+                            System.out.println(investimento);
+                        }
+                }
             }
         }
-
     }
-
-
 }
