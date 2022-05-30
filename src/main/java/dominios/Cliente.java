@@ -1,5 +1,6 @@
 package dominios;
 
+
 public class Cliente extends Usuario {
 
     private final String inscricao;

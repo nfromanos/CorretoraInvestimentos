@@ -1,5 +1,4 @@
 package dominios;
-import java.util.ArrayList;
 
 public class Corretora extends Usuario{
 
@@ -10,10 +9,6 @@ public class Corretora extends Usuario{
     public Corretora(String nome, String sobrenome, String usuario, String senha, int identificador) {
         super(nome, sobrenome, usuario, senha);
         this.identificador = identificador;
-    }
-
-    public int getIdentificador() {
-        return identificador;
     }
 
 }

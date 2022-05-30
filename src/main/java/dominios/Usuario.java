@@ -1,33 +1,41 @@
 package dominios;
+import repositorio.ClientRepository;
+
+import java.util.ArrayList;
 
 public class Usuario {
+    protected int id;
+    protected String username;
+    protected String password;
+    protected String role; // Transformar em ENUM
 
-    protected String nome;
-    protected String sobrenome;
-    protected String login;
-    protected String senha;
-
-
-    public Usuario(String nome, String sobrenome, String login, String senha) {
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-        this.login = login;
-        this.senha = senha;
+    public Usuario(String username, String password, String role) {
+        this.id = generateId();
+        this.username = username;
+        this.password = password;
+        this.role = role;
     }
 
-    public String getNome() {
-        return nome;
+    public String getUsername() {
+        return username;
     }
 
-    public String getSobrenome() {
-        return sobrenome;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getLogin() {
-        return login;
+    public String getPassword() {
+        return password;
     }
 
-    public String getSenha() {
-        return senha;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int generateId () {
+        ArrayList<Cliente> clientsList = ClientRepository.listaDeClientes;
+        int sizeClientsList = clientsList.size();
+        int id = sizeClientsList + 1;
+        return id;
     }
 }
