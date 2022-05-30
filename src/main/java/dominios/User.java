@@ -7,9 +7,9 @@ public class User {
     protected int id;
     protected String username;
     protected String password;
-    protected String role; // Transformar em ENUM
+    protected Role role; // Transformar em ENUM
 
-    public User(String username, String password, String role) {
+    public User(String username, String password, Role role) {
         this.id = generateId();
         this.username = username;
         this.password = password;

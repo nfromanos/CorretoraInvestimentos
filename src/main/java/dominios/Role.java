@@ -14,8 +14,15 @@ public enum Role {
         this.cod = cod;
     }
 
+    public Role returnRole (int roleInt){
+        if(roleInt == 2) {
+            return Role.ADMIN;
+        } else {
+            return Role.NORMAL;
+        }
+    }
+
     public int getCod() {
         return cod;
     }
 }
-
