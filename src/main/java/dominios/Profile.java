@@ -1,13 +1,13 @@
 package dominios;
 
-public enum PerfilInvestimentos {
+public enum Profile {
     CONSERVADOR("TESOURO"),
     MODERADO("FUNDOS"),
     AGRESSIVO("ACÃO");
 
     private final String investimentoRecomendado;
 
-    PerfilInvestimentos(String pontuacao) {
+    Profile(String pontuacao) {
         this.investimentoRecomendado = pontuacao;
     }
 

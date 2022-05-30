@@ -1,6 +1,6 @@
 package telas;
 import dominios.Cliente;
-import dominios.PerfilInvestimentos;
+import dominios.Profile;
 import dominios.TiposDeInvestimento;
 import java.util.Scanner;
 import static repositorio.ClientRepository.listaDeClientes;
@@ -20,8 +20,8 @@ public class AcessoCliente {
                 System.out.println("Usuário encontrado, entre a opção desejada:\n1 - Investir\n2 - Retirar investimento\n3 - Acompanhar os investimentos\n4 - Ver tipos de investimentos");
                 switch(scanner.next()){
                     case "1":
-                        System.out.printf("O investimento recomendado para o seu tipo de perfil é o(a) %s, qual das opções deseja adquirir:", PerfilInvestimentos.valueOf(usuario.getPerfil()).getInvestimentoRecomendado());
-                        TiposDeInvestimento.valueOf(usuario.getPerfil()).getTiposDeOpcoes();
+                        System.out.printf("O investimento recomendado para o seu tipo de perfil é o(a) %s, qual das opções deseja adquirir:", Profile.valueOf(usuario.getPerfil()).getInvestimentoRecomendado());
+                        TiposDeInvestimento.valueOf(usuario.getPerfil()).getVariacaoDoAtivo();
                         String opcaoDeInvestimentoSelecionado = scanner.next().toUpperCase();
 
                         break;

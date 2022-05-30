@@ -8,7 +8,7 @@ public class ClientRepository{
 
     public static void getListaDeClientes(){
         for (Cliente listaDeCliente : listaDeClientes) {
-            System.out.printf("%nNome:%s Sobrenome:%s Inscrição:%s Usuário:%s%n", listaDeCliente.getNome(), listaDeCliente.getSobrenome(), listaDeCliente.getInscricao(), listaDeCliente.getLogin());
+            System.out.printf("%nNome:%s Sobrenome:%s Inscrição:%s Usuário:%s%n", listaDeCliente.getName(),  listaDeCliente.getUsername(), listaDeCliente.getPassword());
         }
     }
     public static void AddCliente(Cliente cliente){

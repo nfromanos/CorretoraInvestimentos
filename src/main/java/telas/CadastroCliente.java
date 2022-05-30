@@ -1,6 +1,5 @@
 package telas;
 import dominios.Cliente;
-import dominios.PerfilInvestimentos;
 import repositorio.ClientRepository;
 
 import java.util.Scanner;
@@ -10,9 +9,9 @@ public class CadastroCliente {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Entre o seu nome:");
-        String nome = scanner.next();
+        String name = scanner.next();
         System.out.println("Entre o seu sobrenome:");
-        String sobrenome = scanner.next();
+        String username = scanner.next();
         System.out.println("Entre o seu CPF ou CNPJ:");
         String inscricao = scanner.next();
         System.out.println("Entre o seu perfil de investidor\n1 - CONSERVADOR\n2 - MODERADO\n3 - AGRESSIVO");

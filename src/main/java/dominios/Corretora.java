@@ -1,14 +1,12 @@
 package dominios;
 
-public class Corretora extends Usuario{
+public class Corretora extends Usuario {
+    public String name;
 
-    private final int identificador;
-
-    private ArrayList<Corretora> listaDeAdministradores;
-
-    public Corretora(String nome, String sobrenome, String usuario, String senha, int identificador) {
-        super(nome, sobrenome, usuario, senha);
-        this.identificador = identificador;
+    public Corretora (String username, String password, String role) {
+        super(username, password, role);
+        this.id = generateId();
+        this.name = name;
     }
 
 }
