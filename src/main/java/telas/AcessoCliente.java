@@ -14,6 +14,7 @@ public class AcessoCliente {
         String login = scanner.next();
         System.out.println("Entre a sua senha:");
         String senha = scanner.next();
+        String perfil = "1";
 
         for (Cliente usuario : listaDeClientes) {
             if(usuario.getUsername().equals(login) && usuario.getPassword().equals(senha)){

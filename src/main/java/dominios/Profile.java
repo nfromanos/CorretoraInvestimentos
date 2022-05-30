@@ -14,4 +14,6 @@ public enum Profile {
     public String getInvestimentoRecomendado() {
         return investimentoRecomendado;
     }
+
+
 }

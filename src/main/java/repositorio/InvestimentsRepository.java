@@ -1,6 +1,7 @@
 package repositorio;
 
 import dominios.Cliente;
+import dominios.Role;
 import dominios.TiposDeInvestimento;
 
 import java.util.ArrayList;
@@ -12,16 +13,16 @@ public class InvestimentsRepository extends Cliente {
     public double quantidadeInvestida;
 
     public InvestimentsRepository(
-            String nome,
-            String sobrenome,
-            String login,
-            String senha,
-            String inscricao,
-            String perfil,
+            String name,
+            String username,
+            String password,
+            String id,
+            Role role,
+            String profile,
             String tipoDoInvestimento,
             double quantidadeInvestida
     ) {
-        super(name, username, password, id, profile);
+        super(name, username, password, role, profile);
         this.tipoDoInvestimento = tipoDoInvestimento;
         this.quantidadeInvestida = quantidadeInvestida;
     }
@@ -36,7 +37,7 @@ public class InvestimentsRepository extends Cliente {
 
     public static void getListaDeInvestimentos() {
         for (InvestimentsRepository investimentsRepository : listaDeInvestimentos) {
-            System.out.printf("%nLogin:%s Investimento:%s Quantidade:%f", investimentsRepository.getLogin(), investimentsRepository.getTipoDoInvestimento(), investimentsRepository.getQuantidadeInvestida());
+            System.out.printf("%nLogin:%s Investimento:%s Quantidade:%f", investimentsRepository.getUsername(), investimentsRepository.getTipoDoInvestimento(), investimentsRepository.getQuantidadeInvestida());
         }
     }
 
