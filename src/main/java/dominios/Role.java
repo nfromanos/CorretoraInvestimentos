@@ -12,10 +12,14 @@ public enum Role {
 
     public Role returnRole (int roleInt){
         if(roleInt == 2) {
-            return Role.ADMIN;
+            return Role;
         } else {
             return Role.NORMAL;
         }
+    }
+
+    public int getCod() {
+        return cod;
     }
 }
 

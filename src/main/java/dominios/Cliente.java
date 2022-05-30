@@ -1,7 +1,7 @@
 package dominios;
 
 
-public class Cliente extends Usuario {
+public class Cliente extends User {
     private String name;
     private Profile profile;
 

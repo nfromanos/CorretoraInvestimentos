@@ -1,0 +1,56 @@
+Index: src/main/java/dominios/Cliente.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package dominios;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class Cliente extends Usuario {\r\n\r\n    private final String inscricao;\r\n\r\n    public Cliente(String nome, String sobrenome, String usuario, String senha, String inscricao) {\r\n        super(nome, sobrenome, usuario, senha);\r\n        this.inscricao = inscricao;\r\n    }\r\n\r\n    public String getInscricao() {\r\n        return inscricao;\r\n    }\r\n\r\n\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/dominios/Cliente.java b/src/main/java/dominios/Cliente.java
+--- a/src/main/java/dominios/Cliente.java	
++++ b/src/main/java/dominios/Cliente.java	
+@@ -2,7 +2,7 @@
+ 
+ import java.util.ArrayList;
+ 
+-public class Cliente extends Usuario {
++public class    Cliente extends Usuario {
+ 
+     private final String inscricao;
+ 
+Index: src/main/java/telas/Menu.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package telas;\r\nimport java.util.Scanner;\r\n\r\npublic class Menu {\r\n\r\n    public static void main(String[] args) {\r\n        Scanner scanner = new Scanner(System.in);\r\n\r\n        System.out.println(\"Qual opção deseja selecionar?\\n1-Criar conta\\n2-Acessar conta\\n3-Sair\");\r\n        String opcao = scanner.next();\r\n        switch (opcao) {\r\n            case \"1\":\r\n                CadastroCliente criarCliente = new CadastroCliente();\r\n                criarCliente.criar();\r\n                break;\r\n            case \"2\":\r\n                break;\r\n            case \"3\":\r\n                break;\r\n\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/telas/Menu.java b/src/main/java/telas/Menu.java
+--- a/src/main/java/telas/Menu.java	
++++ b/src/main/java/telas/Menu.java	
+@@ -17,8 +17,6 @@
+                 break;
+             case "3":
+                 break;
+-
+         }
+-
+     }
+ }
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$/..\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	
++++ b/.idea/vcs.xml	
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file

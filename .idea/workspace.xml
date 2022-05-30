@@ -4,29 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Atualizacao 1">
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Changes by joaof">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/PerfilInvestimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Rendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Rendimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Menu.java" afterDir="false" />
     </list>
-    <list id="098daed6-552c-4456-bcf9-a0e17a2ecf34" name="Changes by jbellatto" comment="" />
-    <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-    </list>
+    <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,41 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java">
-      <ranges>
-        <range start1="10" end1="11" start2="10" end2="11" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="17" end1="17" start2="17" end2="18" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-        <range start1="19" end1="20" start2="20" end2="21" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/dominios/Cliente.java">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="2" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-        <range start1="3" end1="3" start2="4" end2="6" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="4" end1="11" start2="7" end2="12" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="13" end1="15" start2="14" end2="25" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="17" end1="20" start2="27" end2="27" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/dominios/Corretora.java">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="1" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-        <range start1="3" end1="6" start2="2" end2="4" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="7" end1="12" start2="5" end2="9" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="14" end1="18" start2="11" end2="11" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="2" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="12" end1="13" start2="11" end2="12" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="14" end1="15" start2="13" end2="14" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="17" end1="18" start2="16" end2="17" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-        <range start1="24" end1="25" start2="23" end2="24" changelist="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -168,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653790348333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes by joaof">
+      <created>1653870988059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653870988059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes by joaof">
+      <created>1653871001104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653871001104</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +155,7 @@
     <MESSAGE value="Atualizacao inicial sábado" />
     <MESSAGE value="Atualizacao 1" />
     <MESSAGE value="Changes by jpdef" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by jpdef" />
+    <MESSAGE value="Changes by joaof" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by joaof" />
   </component>
 </project>

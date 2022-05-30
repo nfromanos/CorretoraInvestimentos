@@ -3,13 +3,13 @@ import repositorio.ClientRepository;
 
 import java.util.ArrayList;
 
-public class Usuario {
+public class User {
     protected int id;
     protected String username;
     protected String password;
     protected String role; // Transformar em ENUM
 
-    public Usuario(String username, String password, String role) {
+    public User(String username, String password, String role) {
         this.id = generateId();
         this.username = username;
         this.password = password;

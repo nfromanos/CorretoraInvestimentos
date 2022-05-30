@@ -9,7 +9,7 @@ public class Rendimento {
     public static final ArrayList<LocalDateTime> tempoDosInvestimentos = new ArrayList<LocalDateTime>();
     double valor;
     private LocalDateTime agora;
-    private Duration duration;
+    private long duration;
     private int nInvestimento;
 
 
@@ -26,6 +26,10 @@ public class Rendimento {
     public void retirarInvestimento(){
         System.out.println("Qual investimento você gostaria de retirar");
         nInvestimento = sc.nextInt();
-        duration = Duration.between(tempoDosInvestimentos.get(nInvestimento-1), LocalDateTime.now());
+        duration = Duration.between(tempoDosInvestimentos.get(nInvestimento-1), LocalDateTime.now()).toSeconds();
+        valor = valor*1.2*(duration/2);
+        if(duration>90){
+            valor = 0;
+        }
     }
 }
