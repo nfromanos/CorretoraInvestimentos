@@ -42,4 +42,8 @@ public abstract class User{
         int id = sizeClientsList + 1;
         return id;
     }
+
+    public int getId() {
+        return id;
+    }
 }

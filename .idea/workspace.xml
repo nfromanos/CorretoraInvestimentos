@@ -6,23 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Changes by joaop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Rendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+    </list>
+    <list id="e382b9a8-3f95-4fe8-ae9e-de8b780c10b2" name="Changes by jbellatto" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Menu.java" afterDir="false" />
     </list>
-    <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
+    <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
+    </list>
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
-    <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Role.java" afterDir="false" />
+    <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="Changes by Nicolau">
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,27 +44,39 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java">
+    <file path="$PROJECT_DIR$/src/main/java/dominios/User.java">
       <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="3" end1="4" start2="4" end2="4" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="8" end1="9" start2="8" end2="8" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="12" end1="16" start2="11" end2="15" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="17" end1="24" start2="16" end2="18" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="25" end1="26" start2="19" end2="19" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/dominios/Role.java">
-      <ranges>
-        <range start1="12" end1="18" start2="12" end2="14" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="19" end1="19" start2="15" end2="23" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="24" end1="26" start2="28" end2="28" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="5" end1="6" start2="5" end2="6" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="11" end1="12" start2="11" end2="12" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="17" end1="17" start2="17" end2="21" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="34" end1="35" start2="38" end2="39" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="40" end1="40" start2="44" end2="48" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java">
       <ranges>
-        <range start1="16" end1="16" start2="16" end2="17" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="22" end1="24" start2="23" end2="24" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="2" end1="3" start2="2" end2="2" changelist="e382b9a8-3f95-4fe8-ae9e-de8b780c10b2" />
+        <range start1="4" end1="4" start2="3" end2="7" changelist="e382b9a8-3f95-4fe8-ae9e-de8b780c10b2" />
+        <range start1="8" end1="10" start2="11" end2="13" changelist="e382b9a8-3f95-4fe8-ae9e-de8b780c10b2" />
+        <range start1="11" end1="17" start2="14" end2="18" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="18" end1="25" start2="19" end2="23" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="26" end1="33" start2="24" end2="26" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="35" end1="36" start2="28" end2="28" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="37" end1="37" start2="29" end2="68" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java">
+      <ranges>
+        <range start1="5" end1="6" start2="5" end2="7" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="10" end1="13" start2="11" end2="18" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="19" end1="19" start2="24" end2="25" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="21" end1="22" start2="27" end2="28" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="28" end1="28" start2="34" end2="35" changelist="e382b9a8-3f95-4fe8-ae9e-de8b780c10b2" />
+        <range start1="29" end1="31" start2="36" end2="41" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="32" end1="32" start2="42" end2="48" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="33" end1="35" start2="49" end2="56" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="37" end1="37" start2="58" end2="62" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="47" end1="47" start2="72" end2="105" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
       </ranges>
     </file>
   </component>
@@ -83,17 +98,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nicolau/IdeaProjects/corretora&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/Nicolau/IdeaProjects/corretora",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projetos\CorretoraInvestimentos" />
@@ -132,7 +148,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653686258360</updated>
       <workItem from="1653686259762" duration="340000" />
-      <workItem from="1653930779533" duration="3070000" />
+      <workItem from="1653930779533" duration="3415000" />
+      <workItem from="1653949219063" duration="9684000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>
@@ -176,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653872247338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changes by joaop">
+      <created>1653934079569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653934079569</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes by Nicolau">
+      <created>1653934095022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653934095022</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +231,7 @@
     <MESSAGE value="Changes by jpdef" />
     <MESSAGE value="Changes by joaof" />
     <MESSAGE value="Changes by joaop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by joaop" />
+    <MESSAGE value="Changes by Nicolau" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Nicolau" />
   </component>
 </project>
