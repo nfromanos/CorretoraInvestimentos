@@ -1,4 +1,5 @@
 package dominios;
+
 import java.time.LocalDateTime;
 import java.time.Duration;
 
@@ -16,7 +17,6 @@ public enum TiposDeInvestimento {
     TiposDeInvestimento(double variacaoDoAtivo) {
         this.variacaoDoAtivo = variacaoDoAtivo;
     }
-
 
 
 }
