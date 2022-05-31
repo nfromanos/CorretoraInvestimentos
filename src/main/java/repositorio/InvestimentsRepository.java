@@ -27,6 +27,7 @@ public class InvestimentsRepository extends Cliente {
         this.quantidadeInvestida = quantidadeInvestida;
     }
 
+
     public String getTipoDoInvestimento() {
         return tipoDoInvestimento;
     }

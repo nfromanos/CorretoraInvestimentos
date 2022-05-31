@@ -1,13 +1,16 @@
 package telas;
 import dominios.Cliente;
-import dominios.Profile;
 import dominios.TiposDeInvestimento;
+import repositorio.InvestimentsRepository;
+import telas.Menu;
+import dominios.Investe;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 import static repositorio.ClientRepository.listaDeClientes;
 
 public class AcessoCliente {
-
-    public void acessar(){
+    double quantidadeDoAtivo;
+    public void logar(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Entre o seu login:");

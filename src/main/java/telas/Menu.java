@@ -1,6 +1,5 @@
 package telas;
-import dominios.TiposDeInvestimento;
-
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Menu {
@@ -18,7 +17,7 @@ public class Menu {
                     break;
                 case "2":
                     AcessoCliente acessoCliente = new AcessoCliente();
-                    acessoCliente.acessar();
+                    acessoCliente.logar();
                     break;
                 case "3":
                     break;

@@ -12,6 +12,10 @@ public class Cliente extends User {
         this.profile = returnProfile(profile);
     }
 
+    public Cliente(String username) {
+        super(username);
+    }
+
     public Profile returnProfile(String profileString) {
         int profileInt = Integer.parseInt(profileString);
         //   Colocar o switch no ENUM;
