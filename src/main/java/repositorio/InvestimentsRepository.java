@@ -8,9 +8,13 @@ import java.util.ArrayList;
 
 public class InvestimentsRepository extends Cliente {
 
-    public static final ArrayList<InvestimentsRepository> listaDeInvestimentos = new ArrayList<>();
-    public String tipoDoInvestimento;
-    public double quantidadeInvestida;
+    private static final ArrayList<InvestimentsRepository> listaDeInvestimentos = new ArrayList<>();
+    private TiposDeInvestimento tipoDoInvestimento;
+    private double quantidadeInvestida;
+    private LocalDateTime tempoInvestimento;
+    private String username;
+    private long tempoSaque;
+    private double quantidadeDisponivel;
 
     public InvestimentsRepository(
             String name,
@@ -19,7 +23,7 @@ public class InvestimentsRepository extends Cliente {
             String id,
             Role role,
             String profile,
-            String tipoDoInvestimento,
+            TiposDeInvestimento tipoDoInvestimento,
             double quantidadeInvestida
     ) {
         super(name, username, password, role, profile);
@@ -28,12 +32,20 @@ public class InvestimentsRepository extends Cliente {
     }
 
 
-    public String getTipoDoInvestimento() {
-        return tipoDoInvestimento;
+    public InvestimentsRepository(String username, TiposDeInvestimento tipoDoInvestimento, double quantidadeInvestida){
+        super(username);
+        this.tipoDoInvestimento = tipoDoInvestimento;
+        this.quantidadeInvestida = quantidadeInvestida;
+        this.tempoInvestimento = LocalDateTime.now();
     }
 
-    public double getQuantidadeInvestida() {
-        return quantidadeInvestida;
+    public double consultarInvestimento(){
+        tempoSaque = Duration.between(tempoInvestimento,LocalDateTime.now()).toSeconds();
+        this.quantidadeDisponivel = quantidadeInvestida*1.2*(tempoSaque/2);
+        if(tempoSaque >120){
+            this.quantidadeInvestida = 0;
+        }
+        return quantidadeDisponivel;
     }
 
     public static void getListaDeInvestimentos() {
