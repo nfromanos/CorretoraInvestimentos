@@ -1,30 +1,37 @@
 package dominios;
 
 
-public class Cliente extends User {
+import repositorio.ClientRepository;
+
+import java.util.ArrayList;
+
+public class Cliente extends User implements AcessosUsuario {
     private String name;
-    private Profile profile;
+    private String profile;
 
     public Cliente(String name, String username, String password, Role role, String profile) {
         super(username, password, role);
         this.name = name;
         this.id = generateId();
         this.profile = returnProfile(profile);
-    }
 
+    }
     public Cliente(String username) {
         super(username);
     }
 
-    public Profile returnProfile(String profileString) {
+    public Cliente(){
+    }
+
+    @Override
+    public String returnProfile(String profileString) {
         int profileInt = Integer.parseInt(profileString);
-        //   Colocar o switch no ENUM;
         if (profileInt == 3) {
-            return Profile.AGRESSIVO;
+            return "AGRESSIVO";
         } else if (profileInt == 2) {
-            return Profile.MODERADO;
+            return "MODERADO";
         } else {
-            return Profile.CONSERVADOR;
+            return "CONSERVADOR";
         }
 
     }
@@ -37,11 +44,17 @@ public class Cliente extends User {
         this.name = name;
     }
 
-    public Profile getProfile() {
+    @Override
+    public String getProfile() {
         return profile;
     }
 
-    public void setProfile(Profile profile) {
-        this.profile = profile;
+    @Override
+    protected int generateId () {
+        ArrayList<Cliente> clientsList = ClientRepository.listaDeClientes;
+        int sizeClientsList = clientsList.size();
+        int id = sizeClientsList + 1;
+        return id;
     }
+
 }

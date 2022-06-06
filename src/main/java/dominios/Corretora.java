@@ -1,5 +1,6 @@
 package dominios;
 
+
 public class Corretora extends User {
     public String name;
 
@@ -7,6 +8,11 @@ public class Corretora extends User {
         super(username, password, role);
         this.id = generateId();
         this.name = name;
+    }
+
+    @Override
+    protected int generateId () {
+        return 0;
     }
 
 }

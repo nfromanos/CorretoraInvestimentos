@@ -1,5 +1,4 @@
 package telas;
-import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Menu {
@@ -8,7 +7,7 @@ public class Menu {
         Scanner scanner = new Scanner(System.in);
         String opcao;
         do {
-            System.out.println("Qual opção deseja selecionar?\n1-Criar conta\n2-Acessar conta\n3-Sair");
+            System.out.println("\nQual opção deseja selecionar?\n1-Criar conta\n2-Acessar conta\n3-Sair");
             opcao = scanner.next();
             switch (opcao) {
                 case "1":
@@ -23,6 +22,6 @@ public class Menu {
                     break;
 
             }
-            }while(!opcao.equals("3"));
+        }while(!opcao.equals("3"));
     }
 }

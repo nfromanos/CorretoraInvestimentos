@@ -7,7 +7,7 @@ public abstract class User{
     protected int id;
     protected String username;
     protected String password;
-    protected Role role; // Transformar em ENUM
+    protected Role role;
 
     protected User(String username, String password, Role role) {
         this.id = generateId();
@@ -18,6 +18,9 @@ public abstract class User{
 
     protected User(String username){
         this.username = username;
+    }
+
+    protected User(){
     }
 
     public String getUsername() {
@@ -36,12 +39,7 @@ public abstract class User{
         this.password = password;
     }
 
-    protected int generateId () {
-        ArrayList<Cliente> clientsList = ClientRepository.listaDeClientes;
-        int sizeClientsList = clientsList.size();
-        int id = sizeClientsList + 1;
-        return id;
-    }
+    protected abstract int generateId ();
 
     public int getId() {
         return id;
