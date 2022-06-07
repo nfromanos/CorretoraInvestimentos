@@ -4,6 +4,7 @@ import dominios.TiposDeInvestimento;
 import repositorio.InvestimentsRepository;
 import dominios.Investe;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import static repositorio.ClientRepository.listaDeClientes;
 
@@ -15,19 +16,24 @@ public class AcessoCliente {
         String login = scanner.next();
         System.out.println("Entre a sua senha:");
         String senha = scanner.next();
+        int usuarioEncontrado = 0;
 
         for (Cliente usuario : listaDeClientes) {
             if (usuario.getUsername().equals(login) && usuario.getPassword().equals(senha)) {
                 System.out.println("Usuário encontrado");
+                usuarioEncontrado = 1;
                 acessar(scanner, usuario);
-
-            } else {
-                System.out.println("Dados invalidos");
+            }
+            if(usuarioEncontrado == 0){
+                System.out.println("Usuário não encontrado.");
             }
         }
+
     }
 
     public void acessar(Scanner scanner, Cliente usuario) {
+        boolean flag = true;
+        boolean saque = false;
         do {
             Investe investe = new Investe();
             System.out.println("\nEntre a opção desejada:\n" +
@@ -46,15 +52,16 @@ public class AcessoCliente {
                 case "3":
                     InvestimentsRepository.consultarInvestimentosDoCliente(usuario);
                 case "4":
-
+                    System.out.println(Arrays.asList(TiposDeInvestimento.values()));;
                     break;
                 case "0":
+                    flag = false;
                     return;
                 default:
                     acessar(scanner, usuario);
             }
 
-        } while (true);
+        } while (flag);
 
     }
 }

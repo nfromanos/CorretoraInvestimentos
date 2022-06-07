@@ -6,5 +6,4 @@ public interface AcessosUsuario {
 
     public String getProfile();
 
-
 }

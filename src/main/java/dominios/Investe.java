@@ -1,6 +1,5 @@
 package dominios;
 import repositorio.InvestimentsRepository;
-
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Arrays;
@@ -13,7 +12,7 @@ public class Investe {
 
     public void investir(Scanner scanner, Cliente usuario){
         System.out.printf("O investimento recomendado para o seu tipo de perfil é o(a) %s, qual das opções deseja adquirir:", Profile.valueOf(usuario.getProfile()).getInvestimentoRecomendado());
-        System.out.println(Arrays.asList(TiposDeInvestimento.values()));;
+        System.out.println(Arrays.asList(TiposDeInvestimento.values()));
         String opcaoDeInvestimentoSelecionado = scanner.next().toUpperCase();
         System.out.println("Qual a quantidade do ativo deseja comprar?");
         double quantidadeDoAtivo = scanner.nextDouble();

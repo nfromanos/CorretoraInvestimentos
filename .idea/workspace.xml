@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Atualizacao 2">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_05_2022_00_11_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_05_2022_00_11__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_05_2022_19_55_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_05_2022_19_55__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Corretora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Menu.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
-    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
+    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
+    </list>
     <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +34,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/dominios/Investe.java">
+      <ranges>
+        <range start1="2" end1="3" start2="2" end2="2" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="15" end1="16" start2="14" end2="15" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="19" end1="20" start2="18" end2="19" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="37" end1="38" start2="36" end2="36" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="41" end1="42" start2="39" end2="41" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="45" end1="46" start2="44" end2="45" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java">
+      <ranges>
+        <range start1="15" end1="16" start2="15" end2="16" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="18" end1="18" start2="18" end2="19" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="19" end1="36" start2="20" end2="21" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="40" end1="40" start2="25" end2="26" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="42" end1="47" start2="28" end2="30" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="49" end1="60" start2="32" end2="34" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="66" end1="67" start2="40" end2="41" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="81" end1="90" start2="55" end2="55" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="119" end1="119" start2="84" end2="85" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -156,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653872247338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata.">
+      <created>1654548686494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654548686494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,26 +202,7 @@
     <MESSAGE value="Changes by jpdef" />
     <MESSAGE value="Changes by joaof" />
     <MESSAGE value="Changes by joaop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by joaop" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java</url>
-          <line>72</line>
-          <properties class="repositorio.InvestimentsRepository" method="consultarInvestimentosDoCliente">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata." />
   </component>
 </project>
