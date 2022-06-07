@@ -16,7 +16,7 @@ public class Investe {
         String opcaoDeInvestimentoSelecionado = scanner.next().toUpperCase();
         System.out.println("Qual a quantidade do ativo deseja comprar?");
         double quantidadeDoAtivo = scanner.nextDouble();
-        InvestimentsRepository investimento = new InvestimentsRepository(usuario.getUsername(), TiposDeInvestimento.valueOf(opcaoDeInvestimentoSelecionado), quantidadeDoAtivo, LocalTime.now());
+        InvestimentsRepository investimento = new InvestimentsRepository(usuario.getUsername(), TiposDeInvestimento.valueOf(opcaoDeInvestimentoSelecionado), quantidadeDoAtivo, LocalTime.now(), LocalTime.now());
         InvestimentsRepository.addInvestimento(investimento);
         InvestimentsRepository.consultarInvestimentosDoCliente(usuario);
     }
@@ -34,15 +34,15 @@ public class Investe {
                 System.out.printf("%nQuantidade retirada no valor: %.2f%nSaldo Atual na Conta: %.2f%n", quantidadeRetirada, investimento.getQuantidadeInvestida());
             }
         }
-
     }
 
     public double calculoValorDeRetirada(InvestimentsRepository investimento, Cliente usuario){
-        long diferencaDoTempoDaCompraEVendaDoInvestimento = Duration.between(investimento.getTempoCompraInvestimento(), LocalTime.now()).toSeconds();
+        long diferencaDoTempoDaCompraEVendaDoInvestimento = Duration.between(investimento.getTempoCompraOlhado(), LocalTime.now()).toSeconds();
+        investimento.setTempoCompraOlhado(LocalTime.now());
         String ativo = Profile.valueOf(usuario.getProfile()).getInvestimentoRecomendado();
         double varicaoDoInvestimento = TiposDeInvestimento.valueOf(ativo).getVariacaoDoAtivo();
         double valorDoInvestimento = investimento.getQuantidadeInvestida() * (Math.pow((varicaoDoInvestimento), diferencaDoTempoDaCompraEVendaDoInvestimento));
-        if(diferencaDoTempoDaCompraEVendaDoInvestimento > 90){
+        if(Duration.between(investimento.getTempoCompraInvestimento(), LocalTime.now()).toSeconds() > 90){
             valorDoInvestimento = 0;
         }
         return valorDoInvestimento;

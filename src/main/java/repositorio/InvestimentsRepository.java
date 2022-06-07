@@ -23,6 +23,7 @@ public class InvestimentsRepository extends Cliente {
         this.tipoDoInvestimento = tipoDoInvestimento;
         this.quantidadeInvestida = quantidadeInvestida;
         this.tempoCompraInvestimento = tempoCompraInvestimento;
+        this.tempoCompraOlhado = tempoCompraOlhado;
     }
 
     public LocalTime getTempoCompraOlhado() {
