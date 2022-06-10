@@ -49,4 +49,6 @@ public class Client extends User implements AcessosUsuario {
         return id = sizeClientsList + 1;
     }
 
+    private
+
 }
