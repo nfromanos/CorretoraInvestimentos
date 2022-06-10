@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/RealizarInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInveste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/AcessosUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+    </list>
+    <list id="38fc9770-a9bc-41ee-accf-2fb09bbc6f9c" name="Changes by jbellatto" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
-    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
+    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
+    <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/CalcularInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
     </list>
-    <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,27 +46,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/dominios/Investe.java">
+    <file path="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java">
       <ranges>
-        <range start1="2" end1="3" start2="2" end2="2" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="15" end1="16" start2="14" end2="15" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="19" end1="20" start2="18" end2="19" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-        <range start1="37" end1="38" start2="36" end2="36" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-        <range start1="41" end1="42" start2="39" end2="41" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-        <range start1="45" end1="46" start2="44" end2="45" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
+        <range start1="1" end1="2" start2="1" end2="2" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="3" end1="3" start2="3" end2="4" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="5" end1="6" start2="6" end2="7" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="9" end1="10" start2="10" end2="11" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="11" end1="11" start2="12" end2="13" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="12" end1="12" start2="14" end2="17" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
+        <range start1="13" end1="14" start2="18" end2="19" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="17" end1="19" start2="22" end2="22" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="20" end1="21" start2="23" end2="23" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java">
+    <file path="$PROJECT_DIR$/src/main/java/dominios/Client.java">
       <ranges>
-        <range start1="15" end1="16" start2="15" end2="16" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="18" end1="18" start2="18" end2="19" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="19" end1="36" start2="20" end2="21" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="40" end1="40" start2="25" end2="26" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-        <range start1="42" end1="47" start2="28" end2="30" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="49" end1="60" start2="32" end2="34" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="66" end1="67" start2="40" end2="41" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="81" end1="90" start2="55" end2="55" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="119" end1="119" start2="84" end2="85" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="7" end1="8" start2="7" end2="8" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="11" end1="12" start2="11" end2="12" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="18" end1="19" start2="18" end2="19" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="22" end1="25" start2="22" end2="22" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="42" end1="46" start2="39" end2="39" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="53" end1="54" start2="46" end2="47" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="55" end1="57" start2="48" end2="49" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
+        <range start1="58" end1="58" start2="50" end2="52" changelist="38fc9770-a9bc-41ee-accf-2fb09bbc6f9c" />
       </ranges>
     </file>
   </component>
@@ -78,17 +90,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nicolau/IdeaProjects/corretora&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jpdef/Desktop/TRablahoPOO/CorretoraInvestimentos",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projetos\CorretoraInvestimentos" />
@@ -128,6 +140,7 @@
       <updated>1653686258360</updated>
       <workItem from="1653686259762" duration="340000" />
       <workItem from="1653930779533" duration="3070000" />
+      <workItem from="1654734936267" duration="4628000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>

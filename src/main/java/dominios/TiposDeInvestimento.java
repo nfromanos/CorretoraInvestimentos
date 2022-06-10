@@ -15,10 +15,6 @@ public enum TiposDeInvestimento {
         return variacaoDoAtivo;
     }
 
-    public double getValorDoAtivo() {
-        return valorDoAtivo;
-    }
-
     TiposDeInvestimento(double variacaoDoAtivo, double valorDoAtivo) {
         this.variacaoDoAtivo = variacaoDoAtivo;
         this.valorDoAtivo = valorDoAtivo;

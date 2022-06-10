@@ -5,22 +5,19 @@ import repositorio.ClientRepository;
 
 import java.util.ArrayList;
 
-public class Cliente extends User implements AcessosUsuario {
+public class Client extends User implements AcessosUsuario {
     private String name;
     private String profile;
 
-    public Cliente(String name, String username, String password, Role role, String profile) {
+    public Client(String name, String username, String password, Role role, String profile) {
         super(username, password, role);
         this.name = name;
         this.id = generateId();
         this.profile = returnProfile(profile);
 
     }
-    public Cliente(String username) {
+    public Client(String username) {
         super(username);
-    }
-
-    public Cliente(){
     }
 
     @Override
@@ -40,10 +37,6 @@ public class Cliente extends User implements AcessosUsuario {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @Override
     public String getProfile() {
         return profile;
@@ -51,10 +44,9 @@ public class Cliente extends User implements AcessosUsuario {
 
     @Override
     protected int generateId () {
-        ArrayList<Cliente> clientsList = ClientRepository.listaDeClientes;
+        ArrayList<Client> clientsList = ClientRepository.listaDeClientes;
         int sizeClientsList = clientsList.size();
-        int id = sizeClientsList + 1;
-        return id;
+        return id = sizeClientsList + 1;
     }
 
 }

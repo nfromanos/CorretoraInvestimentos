@@ -1,5 +1,5 @@
 package telas;
-import dominios.Cliente;
+import dominios.Client;
 import dominios.Role;
 import repositorio.ClientRepository;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class CadastroCliente {
         String password = scanner.next();
         System.out.println("Entre o seu perfil de investidor\n1 - CONSERVADOR\n2 - MODERADO\n3 - AGRESSIVO");
         String perfilDoInvestidor = scanner.next();
-        Cliente cliente = new Cliente(name, login, password, Role.NORMAL.returnRole(1), perfilDoInvestidor);
+        Client cliente = new Client(name, login, password, Role.NORMAL.returnRole(1), perfilDoInvestidor);
         ClientRepository.AddCliente(cliente);
         ClientRepository.getListaDeClientes();
     }

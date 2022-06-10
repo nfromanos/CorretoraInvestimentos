@@ -1,21 +1,18 @@
 package repositorio;
-import dominios.Cliente;
+import dominios.Client;
 import java.util.ArrayList;
 
 public class ClientRepository{
-    public static final ArrayList<Cliente> listaDeClientes = new ArrayList<>();
+    public static final ArrayList<Client> listaDeClientes = new ArrayList<>();
 
 
     public static void getListaDeClientes(){
-        for (Cliente listaDeCliente : listaDeClientes) {
+        for (Client listaDeCliente : listaDeClientes) {
             System.out.printf("%nId:%s Nome:%s Login:%s Perfil:%s%n", listaDeCliente.getId(), listaDeCliente.getName(), listaDeCliente.getUsername(),  listaDeCliente.getProfile());
         }
     }
-    public static void AddCliente(Cliente cliente){
+    public static void AddCliente(Client cliente){
         listaDeClientes.add(cliente);
     }
 
-
-
 }
-;
