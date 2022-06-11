@@ -17,6 +17,7 @@ public class CadastroCliente {
         String perfilDoInvestidor = scanner.next();
         Client cliente = new Client(name, login, password, Role.NORMAL.returnRole(1), perfilDoInvestidor);
         ClientRepository.AddCliente(cliente);
+        //Validacao temporaria
         ClientRepository.getListaDeClientes();
     }
 }

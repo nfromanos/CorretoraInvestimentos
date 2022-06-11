@@ -1,9 +1,9 @@
 package telas;
 import dominios.Client;
+import dominios.RetirarInvestimento;
 import dominios.TiposDeInvestimento;
 import repositorio.InvestimentsRepository;
 import dominios.RealizarInvestimento;
-
 import java.util.Arrays;
 import java.util.Scanner;
 import static repositorio.ClientRepository.listaDeClientes;
@@ -16,8 +16,8 @@ public class AcessoCliente {
         String login = scanner.next();
         System.out.println("Entre a sua senha:");
         String senha = scanner.next();
-        int usuarioEncontrado = 0;
 
+        int usuarioEncontrado = 0;
         for (Client usuario : listaDeClientes) {
             if (usuario.getUsername().equals(login) && usuario.getPassword().equals(senha)) {
                 System.out.println("Usuário encontrado");
@@ -28,11 +28,11 @@ public class AcessoCliente {
                 System.out.println("Usuário não encontrado.");
             }
         }
-
     }
 
     public void acessar(Scanner scanner, Client usuario) {
         boolean flag = true;
+
         do {
             RealizarInvestimento investe = new RealizarInvestimento();
             System.out.println("\nEntre a opção desejada:\n" +
@@ -43,10 +43,12 @@ public class AcessoCliente {
                     "0 - Logoff");
             switch (scanner.next()) {
                 case "1":
-                    investe.investir(scanner, usuario, menuInveste);
+                    RealizarInvestimento realizarInvestimento = new RealizarInvestimento();
+                    realizarInvestimento.investir(scanner, usuario, menuInveste);
                     break;
                 case "2":
-                    investe.retirarInvestimento(scanner, usuario);
+                    RetirarInvestimento retirarInvestimento = new RetirarInvestimento();
+                    retirarInvestimento.retirarInvestimento(scanner, usuario);
                     break;
                 case "3":
                     InvestimentsRepository.consultarInvestimentosDoCliente(usuario);

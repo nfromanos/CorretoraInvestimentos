@@ -5,12 +5,8 @@ import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 
 public class RetirarInvestimento {
 
-    public void retirarInvestimento(Scanner scanner, Client usuario){
-//        System.out.println("Qual investimento deseja retirar? Entrar ACAO, TESOURO ou FUNDOS.");
-//        String investimentoEscolhido = scanner.next();
+    public void retirarInvestimento(double quantidadeRetirada, Client usuario){
         InvestimentsRepository.consultarInvestimentosDoCliente(usuario);
-        System.out.printf("%nQuanto deseja retirar?%n");
-        double quantidadeRetirada = scanner.nextDouble();
         for (InvestimentsRepository investimento : listaDeInvestimentos) {
             if(investimento.getUsername().equals(usuario.getUsername())){
                 double quantidadeNova = investimento.getQuantidadeInvestida() - quantidadeRetirada;
