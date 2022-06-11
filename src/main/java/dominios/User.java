@@ -1,7 +1,4 @@
 package dominios;
-import repositorio.ClientRepository;
-
-import java.util.ArrayList;
 
 public abstract class User{
     protected int id;

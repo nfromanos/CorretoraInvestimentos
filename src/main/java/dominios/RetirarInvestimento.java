@@ -1,5 +1,7 @@
 package dominios;
 import repositorio.InvestimentsRepository;
+import telas.ValorARetirar;
+
 import java.util.Scanner;
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 

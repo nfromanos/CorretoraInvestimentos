@@ -34,7 +34,6 @@ public class AcessoCliente {
         boolean flag = true;
 
         do {
-            RealizarInvestimento investe = new RealizarInvestimento();
             System.out.println("\nEntre a opção desejada:\n" +
                     "1 - Investir\n" +
                     "2 - Retirar investimento\n" +
