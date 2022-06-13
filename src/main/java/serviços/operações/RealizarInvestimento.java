@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class RealizarInvestimento {
 
-    public void investir(Scanner scanner, Client usuario, double quantidadeComprada, String investimentoAdquirido){
+    public void investir(Client usuario, double quantidadeComprada, String investimentoAdquirido){
         Investimento investimento = new Investimento(usuario.getUsername(), TiposDeInvestimento.valueOf(investimentoAdquirido), quantidadeComprada, LocalTime.now(), LocalTime.now());
         InvestimentsRepository.addInvestimento(investimento);
         ConsultarInvestimentosDoCliente.consultarInvestimentosDoCliente(usuario);

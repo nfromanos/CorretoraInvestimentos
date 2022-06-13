@@ -20,24 +20,20 @@ public class PainelCliente {
             opcao = scanner.next();
             switch (opcao) {
                 case "1":
-                    Investir.processoInvestimento(scanner, usuario);
-//                    RealizarInvestimento realizarInvestimento = new RealizarInvestimento();
-//                    InserirQuantidadeAtivoComprado quantidadeComparada = new InserirQuantidadeAtivoComprado();
-//                    InserirInvestimentoRecomendado investimentoRecomendado = new InserirInvestimentoRecomendado();
-//                    realizarInvestimento.investir(scanner, usuario, quantidadeComparada, investimentoRecomendado);
+                    RealizarInvestimento.processoInvestimento(scanner, usuario);
                     break;
                 case "2":
-                    ValorARetirar valorRetirado = new ValorARetirar();
-                    valorRetirado.valorARetirar(usuario);
-                    System.out.println();
+                    RetirarInvestimento.retirarInvestimento(usuario);
                     break;
                 case "3":
                     ConsultarInvestimentosDoCliente.consultarInvestimentosDoCliente(usuario);
+                    break;
                 case "4":
                     System.out.println(Arrays.asList(TiposDeInvestimento.values()));;
                     break;
                 case "5":
                     SimularInvestimento.simulacao(scanner);
+                    break;
                 case "0":
                     break;
                 default:
