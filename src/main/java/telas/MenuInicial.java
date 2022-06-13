@@ -1,7 +1,7 @@
 package telas;
 import java.util.Scanner;
 
-public class Menu {
+public class MenuInicial {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,13 +15,13 @@ public class Menu {
                     criarCliente.criar();
                     break;
                 case "2":
-                    AcessoCliente acessoCliente = new AcessoCliente();
+                    LoginCliente acessoCliente = new LoginCliente();
                     acessoCliente.logar();
                     break;
                 case "3":
                     break;
 
             }
-        }while(!opcao.equals("3"));
+        } while(!opcao.equals("3"));
     }
 }

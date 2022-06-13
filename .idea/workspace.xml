@@ -4,25 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/ValorARetirar.java" afterDir="false" />
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Durante a aula">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/RealizarInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/InserirQuantidadeAtivoComprado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/imprimirValorRetiradoEValorAtual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/RealizarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RealizarInvestimento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/RetirarInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/MenuInveste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/InserirInvestimentoRecomendado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/ValorARetirar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/ValorARetirar.java" afterDir="false" />
     </list>
-    <list id="38fc9770-a9bc-41ee-accf-2fb09bbc6f9c" name="Changes by jbellatto" comment="Changes by jbellatto" />
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
-    <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="Changes by Nicolau">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" afterDir="false" />
-    </list>
+    <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,35 +49,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="5" end1="6" start2="6" end2="6" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="18" end1="18" start2="18" end2="19" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="19" end1="20" start2="20" end2="20" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="30" end1="31" start2="30" end2="30" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="35" end1="35" start2="34" end2="35" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="36" end1="37" start2="36" end2="36" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="45" end1="46" start2="44" end2="46" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="48" end1="49" start2="48" end2="50" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/dominios/Client.java">
-      <ranges>
-        <range start1="1" end1="3" start2="1" end2="1" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="4" end1="5" start2="2" end2="2" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="50" end1="53" start2="47" end2="47" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" />
-        <range start1="7" end1="10" start2="9" end2="10" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="11" end1="13" start2="11" end2="11" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -108,9 +89,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="telas.Menu" />
-      <module name="CorretoraInvestimentos" />
+    <configuration name="MenuInicial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="telas.MenuInicial" />
+      <module name="corretora" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="telas.*" />
@@ -123,7 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Menu" />
+        <item itemvalue="Application.telas.MenuInicial" />
       </list>
     </recent_temporary>
   </component>
@@ -138,8 +119,6 @@
       <workItem from="1653686259762" duration="340000" />
       <workItem from="1653930779533" duration="3070000" />
       <workItem from="1654734936267" duration="4628000" />
-      <workItem from="1654895118894" duration="80000" />
-      <workItem from="1654907371366" duration="4855000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>
@@ -190,28 +169,7 @@
       <option name="project" value="LOCAL" />
       <updated>1654548686494</updated>
     </task>
-    <task id="LOCAL-00008" summary="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata.">
-      <created>1654895159932</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1654895159933</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Changes by jbellatto">
-      <created>1654895173545</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1654895173545</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Changes by Nicolau">
-      <created>1654895181899</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1654895181899</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,8 +194,6 @@
     <MESSAGE value="Changes by joaof" />
     <MESSAGE value="Changes by joaop" />
     <MESSAGE value="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata." />
-    <MESSAGE value="Changes by jbellatto" />
-    <MESSAGE value="Changes by Nicolau" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Nicolau" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata." />
   </component>
 </project>

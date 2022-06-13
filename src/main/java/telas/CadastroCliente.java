@@ -2,6 +2,8 @@ package telas;
 import dominios.Client;
 import dominios.Role;
 import repositorio.ClientRepository;
+import telas.consultas.ConsultarListaDeClientes;
+
 import java.util.Scanner;
 
 public class CadastroCliente {
@@ -18,6 +20,6 @@ public class CadastroCliente {
         Client cliente = new Client(name, login, password, Role.NORMAL.returnRole(1), perfilDoInvestidor);
         ClientRepository.AddCliente(cliente);
         //Validacao temporaria
-        ClientRepository.getListaDeClientes();
+        ConsultarListaDeClientes.getListaDeClientes();
     }
 }

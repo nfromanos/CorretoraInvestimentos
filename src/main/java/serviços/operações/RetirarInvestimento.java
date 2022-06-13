@@ -1,19 +1,20 @@
-package dominios;
-import repositorio.InvestimentsRepository;
-import telas.ValorARetirar;
+package serviços.operações;
+import telas.imprimirValorRetiradoEValorAtual;
+import telas.consultas.ConsultarInvestimentosDoCliente;
+import dominios.Client;
+import dominios.Investimento;
 
-import java.util.Scanner;
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 
 public class RetirarInvestimento {
 
     public void retirarInvestimento(double quantidadeRetirada, Client usuario){
-        InvestimentsRepository.consultarInvestimentosDoCliente(usuario);
-        for (InvestimentsRepository investimento : listaDeInvestimentos) {
+        ConsultarInvestimentosDoCliente.consultarInvestimentosDoCliente(usuario);
+        for (Investimento investimento : listaDeInvestimentos) {
             if(investimento.getUsername().equals(usuario.getUsername())){
                 double quantidadeNova = investimento.getQuantidadeInvestida() - quantidadeRetirada;
                 investimento.setQuantidadeInvestida(quantidadeNova);
-                System.out.printf("%nQuantidade retirada no valor: %.2f%nSaldo Atual na Conta: %.2f%n", quantidadeRetirada, investimento.getQuantidadeInvestida());
+                imprimirValorRetiradoEValorAtual.quantidadeRetirada(quantidadeRetirada, investimento);
             }
         }
     }
