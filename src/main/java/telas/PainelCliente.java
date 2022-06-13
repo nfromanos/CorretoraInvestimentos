@@ -41,6 +41,5 @@ public class PainelCliente {
             }
 
         } while (!opcao.equals("0"));
-
     }
 }

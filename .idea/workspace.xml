@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Durante a aula">
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/RetirarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
@@ -99,7 +102,7 @@
       <workItem from="1653686259762" duration="340000" />
       <workItem from="1653930779533" duration="3070000" />
       <workItem from="1654734936267" duration="4628000" />
-      <workItem from="1655154840287" duration="4934000" />
+      <workItem from="1655154840287" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655159425462</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update 06/Jun/22:&#10;  - Durante a aula">
+      <created>1655159818542</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655159818542</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

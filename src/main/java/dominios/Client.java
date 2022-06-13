@@ -11,7 +11,6 @@ public class Client extends User implements AcessosUsuario {
         this.name = name;
         this.id = generateId();
         this.profile = returnProfile(profile);
-
     }
     public Client(String username) {
         super(username);
@@ -45,6 +44,4 @@ public class Client extends User implements AcessosUsuario {
         int sizeClientsList = clientsList.size();
         return id = sizeClientsList + 1;
     }
-
-
 }

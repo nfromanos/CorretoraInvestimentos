@@ -10,10 +10,6 @@ public enum Role {
         this.cod = cod;
     }
 
-    public void setCod(int cod) {
-        this.cod = cod;
-    }
-
     public Role returnRole (int roleInt){
         if(roleInt == 2) {
             return Role.ADMIN;

@@ -17,9 +17,6 @@ public abstract class User{
         this.username = username;
     }
 
-    protected User(){
-    }
-
     public String getUsername() {
         return username;
     }
