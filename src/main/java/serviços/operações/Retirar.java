@@ -6,9 +6,9 @@ import dominios.Investimento;
 
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 
-public class RetirarInvestimento {
+public class Retirar {
 
-    public void retirarInvestimento(double quantidadeRetirada, Client usuario){
+    public void retirar(double quantidadeRetirada, Client usuario){
         ConsultarInvestimentosDoCliente.consultarInvestimentosDoCliente(usuario);
         for (Investimento investimento : listaDeInvestimentos) {
             if(investimento.getUsername().equals(usuario.getUsername())){

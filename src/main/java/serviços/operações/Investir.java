@@ -6,9 +6,8 @@ import dominios.TiposDeInvestimento;
 import repositorio.InvestimentsRepository;
 
 import java.time.LocalTime;
-import java.util.Scanner;
 
-public class RealizarInvestimento {
+public class Investir {
 
     public void investir(Client usuario, double quantidadeComprada, String investimentoAdquirido){
         Investimento investimento = new Investimento(usuario.getUsername(), TiposDeInvestimento.valueOf(investimentoAdquirido), quantidadeComprada, LocalTime.now(), LocalTime.now());
