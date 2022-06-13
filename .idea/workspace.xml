@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Durante a aula">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/RealizarInvestimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/InserirQuantidadeAtivoComprado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/imprimirValorRetiradoEValorAtual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/Investir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2022_21_45__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RealizarInvestimento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/RetirarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/AcessoCliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/MenuInveste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/InserirInvestimentoRecomendado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/RealizarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/RetirarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/InserirInvestimentoRecomendado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/InserirQuantidadeAtivoComprado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/ValorARetirar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/ValorARetirar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/imprimirValorRetiradoEValorAtual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/ImprimirValorRetiradoEValorAtual.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
@@ -89,9 +75,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MenuInicial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="telas.MenuInicial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="telas.MenuInicial" />
-      <module name="corretora" />
+      <module name="CorretoraInvestimentos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="telas.*" />
@@ -119,6 +105,7 @@
       <workItem from="1653686259762" duration="340000" />
       <workItem from="1653930779533" duration="3070000" />
       <workItem from="1654734936267" duration="4628000" />
+      <workItem from="1655154840287" duration="1841000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>

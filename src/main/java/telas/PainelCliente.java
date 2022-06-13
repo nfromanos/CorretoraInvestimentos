@@ -2,7 +2,6 @@ package telas;
 import dominios.Client;
 import dominios.TiposDeInvestimento;
 import telas.consultas.ConsultarInvestimentosDoCliente;
-import serviços.operações.RealizarInvestimento;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -21,10 +20,11 @@ public class PainelCliente {
             opcao = scanner.next();
             switch (opcao) {
                 case "1":
-                    RealizarInvestimento realizarInvestimento = new RealizarInvestimento();
-                    InserirQuantidadeAtivoComprado quantidadeComparada = new InserirQuantidadeAtivoComprado();
-                    InserirInvestimentoRecomendado investimentoRecomendado = new InserirInvestimentoRecomendado();
-                    realizarInvestimento.investir(scanner, usuario, quantidadeComparada, investimentoRecomendado);
+                    Investir.processoInvestimento(scanner, usuario);
+//                    RealizarInvestimento realizarInvestimento = new RealizarInvestimento();
+//                    InserirQuantidadeAtivoComprado quantidadeComparada = new InserirQuantidadeAtivoComprado();
+//                    InserirInvestimentoRecomendado investimentoRecomendado = new InserirInvestimentoRecomendado();
+//                    realizarInvestimento.investir(scanner, usuario, quantidadeComparada, investimentoRecomendado);
                     break;
                 case "2":
                     ValorARetirar valorRetirado = new ValorARetirar();

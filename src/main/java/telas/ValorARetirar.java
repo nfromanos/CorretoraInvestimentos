@@ -13,4 +13,5 @@ public class ValorARetirar {
         RetirarInvestimento retirarInvestimento = new RetirarInvestimento();
         retirarInvestimento.retirarInvestimento(valorARetirar, usuario);
     }
+
 }

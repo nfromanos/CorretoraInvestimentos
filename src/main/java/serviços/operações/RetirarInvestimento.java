@@ -1,5 +1,5 @@
 package serviços.operações;
-import telas.imprimirValorRetiradoEValorAtual;
+import telas.ImprimirValorRetiradoEValorAtual;
 import telas.consultas.ConsultarInvestimentosDoCliente;
 import dominios.Client;
 import dominios.Investimento;
@@ -14,7 +14,7 @@ public class RetirarInvestimento {
             if(investimento.getUsername().equals(usuario.getUsername())){
                 double quantidadeNova = investimento.getQuantidadeInvestida() - quantidadeRetirada;
                 investimento.setQuantidadeInvestida(quantidadeNova);
-                imprimirValorRetiradoEValorAtual.quantidadeRetirada(quantidadeRetirada, investimento);
+                ImprimirValorRetiradoEValorAtual.quantidadeRetirada(quantidadeRetirada, investimento);
             }
         }
     }
