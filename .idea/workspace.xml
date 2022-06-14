@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Durante a aula">
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/MyOwnList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/MyOwnList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
@@ -104,7 +107,7 @@
       <workItem from="1653686259762" duration="340000" />
       <workItem from="1653930779533" duration="3070000" />
       <workItem from="1654734936267" duration="4628000" />
-      <workItem from="1655154840287" duration="7995000" />
+      <workItem from="1655154840287" duration="11965000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655160772159</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update 06/Jun/22:&#10;  - Durante a aula">
+      <created>1655163088396</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655163088396</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
