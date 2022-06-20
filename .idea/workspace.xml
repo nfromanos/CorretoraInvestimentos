@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryInvestimentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" afterDir="false" />
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 20/Jun/22:&#10;  - Arrumando bugs.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/OrdenarListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarListaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarTodosOsClientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
@@ -208,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655753100136</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update 20/Jun/22:&#10;  - Arrumando bugs.">
+      <created>1655767034117</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655767034117</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +230,7 @@
     <MESSAGE value="Update 06/Jun/22:&#10;  - Durante a aula" />
     <MESSAGE value="Update 13/Jun/22:&#10;  - Reformulação utilizando o conceito SOLID" />
     <MESSAGE value="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento." />
+    <MESSAGE value="Update 20/Jun/22:&#10;  - Arrumando bugs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 20/Jun/22:&#10;  - Arrumando bugs." />
   </component>
 </project>

@@ -1,6 +1,5 @@
 package telas.consultas;
 import dominios.Investimento;
-
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 
 public class ConsultarInvestimentoDeTodosOsClientes implements ConsultarTodosOsClientes {
