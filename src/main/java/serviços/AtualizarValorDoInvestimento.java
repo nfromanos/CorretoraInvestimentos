@@ -4,8 +4,8 @@ import dominios.Investimento;
 
 public class AtualizarValorDoInvestimento {
 
-    public void ajusteValorInvestimento(Investimento investimento, Client cliente){
+    public void ajusteValorInvestimento(Investimento investimento, String clienteProfile){
         CalcularInvestimento investe = new CalcularInvestimento();
-        investimento.setQuantidadeInvestida(investe.calculoValorDeRetirada(investimento, cliente));
+        investimento.setQuantidadeInvestida(investe.calculoValorDeRetirada(investimento, clienteProfile));
     }
 }

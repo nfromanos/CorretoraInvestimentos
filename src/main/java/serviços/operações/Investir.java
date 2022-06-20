@@ -12,6 +12,7 @@ public class Investir {
     public void investir(Client usuario, double quantidadeComprada, String investimentoAdquirido){
         Investimento investimento = new Investimento(usuario.getUsername(), TiposDeInvestimento.valueOf(investimentoAdquirido), quantidadeComprada, LocalTime.now(), LocalTime.now());
         InvestimentsRepository.addInvestimento(investimento);
-        ConsultarInvestimentosDoCliente.consultarInvestimentosDoCliente(usuario);
+        ConsultarInvestimentosDoCliente consultar = new ConsultarInvestimentosDoCliente();
+        consultar.consultar(usuario.getUsername());
     }
 }

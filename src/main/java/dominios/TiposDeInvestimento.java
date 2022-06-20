@@ -1,8 +1,5 @@
 package dominios;
 
-import java.time.LocalDateTime;
-import java.time.Duration;
-
 public enum TiposDeInvestimento {
     ACAO(1.05, 2.5),
     TESOURO(1.04, 5.3),

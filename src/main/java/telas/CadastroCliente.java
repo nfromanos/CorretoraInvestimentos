@@ -20,6 +20,7 @@ public class CadastroCliente {
         Client cliente = new Client(name, login, password, Role.NORMAL.returnRole(1), perfilDoInvestidor);
         ClientRepository.AddCliente(cliente);
         //Validacao temporaria
-        ConsultarListaDeClientes.getListaDeClientes();
+        ConsultarListaDeClientes consultar = new ConsultarListaDeClientes();
+        consultar.consultar();
     }
 }

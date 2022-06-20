@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 06/Jun/22:&#10;  - Durante a aula">
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 13/Jun/22:&#10;  - Reformulação utilizando o conceito SOLID">
+      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarListaGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/MyOwnList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef" />
@@ -56,17 +70,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jpdef/Desktop/TRablahoPOO/untitled",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jpdef/Desktop/TRablahoPOO/untitled&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projetos\CorretoraInvestimentos" />
@@ -79,7 +93,7 @@
   <component name="RunManager">
     <configuration name="telas.MenuInicial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="telas.MenuInicial" />
-      <module name="CorretoraInvestimentos" />
+      <module name="corretora" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="telas.*" />
@@ -107,7 +121,7 @@
       <workItem from="1653686259762" duration="340000" />
       <workItem from="1653930779533" duration="3070000" />
       <workItem from="1654734936267" duration="4628000" />
-      <workItem from="1655154840287" duration="11965000" />
+      <workItem from="1655154840287" duration="7995000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizacao inicial sábado">
       <created>1653784966773</created>
@@ -186,14 +200,7 @@
       <option name="project" value="LOCAL" />
       <updated>1655160772159</updated>
     </task>
-    <task id="LOCAL-00012" summary="Update 06/Jun/22:&#10;  - Durante a aula">
-      <created>1655163088396</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1655163088396</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -26,7 +26,8 @@ public class PainelCliente {
                     RetirarInvestimento.retirarInvestimento(usuario);
                     break;
                 case "3":
-                    ConsultarInvestimentosDoCliente.consultarInvestimentosDoCliente(usuario);
+                    ConsultarInvestimentosDoCliente consultar = new ConsultarInvestimentosDoCliente();
+                    consultar.consultar(usuario.getUsername());
                     break;
                 case "4":
                     System.out.println(Arrays.asList(TiposDeInvestimento.values()));;

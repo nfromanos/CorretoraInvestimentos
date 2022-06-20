@@ -12,6 +12,6 @@ public class SimularInvestimento {
         double valor = scanner.nextDouble();
         System.out.println("Por quanto tempo deseja deixar investido? Entre um valor de 1 a 90 segundos");
         int segundos = scanner.nextInt();
-        System.out.println(CalculoSimularInvestimento.simulacaoInvestimento(scanner, tipoInvestimento, valor, segundos));
+        System.out.println(CalculoSimularInvestimento.simulacaoInvestimento(tipoInvestimento, valor, segundos));
     }
 }

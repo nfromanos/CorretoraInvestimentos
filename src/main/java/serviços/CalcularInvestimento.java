@@ -9,10 +9,10 @@ import java.time.LocalTime;
 
 public class CalcularInvestimento {
 
-    public double calculoValorDeRetirada(Investimento investimento, Client usuario){
+    public double calculoValorDeRetirada(Investimento investimento, String clienteProfile){
         long diferencaDoTempoDaCompraEVendaDoInvestimento = Duration.between(investimento.getTempoCompraOlhado(), LocalTime.now()).toSeconds();
         investimento.setTempoCompraOlhado(LocalTime.now());
-        String ativo = Profile.valueOf(usuario.getProfile()).getInvestimentoRecomendado();
+        String ativo = Profile.valueOf(clienteProfile).getInvestimentoRecomendado();
         double varicaoDoInvestimento = TiposDeInvestimento.valueOf(ativo).getVariacaoDoAtivo();
         double valorDoInvestimento = investimento.getQuantidadeInvestida() * (Math.pow((varicaoDoInvestimento), diferencaDoTempoDaCompraEVendaDoInvestimento));
         if(Duration.between(investimento.getTempoCompraInvestimento(), LocalTime.now()).toSeconds() > 90){
