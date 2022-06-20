@@ -1,5 +1,4 @@
 package serviços;
-import dominios.Client;
 import dominios.Investimento;
 import dominios.Profile;
 import dominios.TiposDeInvestimento;

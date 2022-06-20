@@ -1,8 +1,7 @@
 package telas.consultas;
-import dominios.Client;
 
 
-public abstract class ConsultarCliente {
+public interface ConsultarCliente {
 
-    public abstract void consultar(String clienteUsername);
+    void consultar(String clienteUsername);
 }

@@ -19,10 +19,11 @@ public class LoginCliente {
                 usuarioEncontrado = 1;
                 PainelCliente.acessar(scanner, usuario);
             }
-            if(usuarioEncontrado == 0){
-                System.out.println("Usuário não encontrado.");
-            }
         }
+        if(usuarioEncontrado == 0){
+            System.out.println("Usuário não encontrado.");
+        }
+
     }
 
 

@@ -8,9 +8,8 @@ import repositorio.InvestimentsRepository;
 import java.time.LocalTime;
 
 public class Investir {
-
     public void investir(Client usuario, double quantidadeComprada, String investimentoAdquirido){
-        Investimento investimento = new Investimento(usuario.getUsername(), TiposDeInvestimento.valueOf(investimentoAdquirido), quantidadeComprada, LocalTime.now(), LocalTime.now());
+        Investimento investimento = new Investimento(usuario.getUsername(), TiposDeInvestimento.valueOf(investimentoAdquirido), quantidadeComprada, usuario.getProfile(), LocalTime.now(), LocalTime.now());
         InvestimentsRepository.addInvestimento(investimento);
         ConsultarInvestimentosDoCliente consultar = new ConsultarInvestimentosDoCliente();
         consultar.consultar(usuario.getUsername());

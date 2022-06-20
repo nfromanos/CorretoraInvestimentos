@@ -18,8 +18,8 @@ public class Investimento extends Client {
         this.tempoCompraOlhado = tempoCompraOlhado;
     }
 
-    public Investimento(String username, TiposDeInvestimento tipoDoInvestimento, double quantidadeInvestida, LocalTime tempoCompraInvestimento, LocalTime tempoCompraOlhado) {
-        super(username);
+    public Investimento(String username, TiposDeInvestimento tipoDoInvestimento, double quantidadeInvestida, String profile, LocalTime tempoCompraInvestimento, LocalTime tempoCompraOlhado) {
+        super(username, profile);
         this.tipoDoInvestimento = tipoDoInvestimento;
         this.quantidadeInvestida = quantidadeInvestida;
         this.tempoCompraInvestimento = tempoCompraInvestimento;

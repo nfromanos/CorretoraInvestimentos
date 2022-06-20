@@ -1,11 +1,10 @@
 package telas.consultas;
-import dominios.Client;
 import dominios.Investimento;
 import serviços.AtualizarValorDoInvestimento;
 
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 
-public class ConsultarInvestimentosDoCliente extends ConsultarCliente {
+public class ConsultarInvestimentosDoCliente implements ConsultarCliente {
     public void consultar(String clienteSelecionado) {
         for (Investimento investimento : listaDeInvestimentos) {
             if (investimento.getUsername().equals(clienteSelecionado)) {

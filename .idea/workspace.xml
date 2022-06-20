@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 13/Jun/22:&#10;  - Reformulação utilizando o conceito SOLID">
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarListaGenerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClientes.java" afterDir="false" />
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryInvestimentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/OrdenarClientes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/OrdenarListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/OrdenarListaGenerica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarTodosOsClientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" afterDir="false" />
@@ -49,6 +45,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655160772159</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento.">
+      <created>1655753100136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655753100136</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +234,8 @@
     <MESSAGE value="Changes by joaop" />
     <MESSAGE value="Update 06/Jun/22:&#10;  - Investir, retirar investimento e acompanhar investimento funcionais.&#10;  - Implementada a interface e a classe abstrata." />
     <MESSAGE value="Update 06/Jun/22:&#10;  - Durante a aula" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 06/Jun/22:&#10;  - Durante a aula" />
+    <MESSAGE value="Update 13/Jun/22:&#10;  - Reformulação utilizando o conceito SOLID" />
+    <MESSAGE value="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento." />
   </component>
 </project>
