@@ -12,15 +12,19 @@ public class LoginCliente {
         System.out.println("Entre a sua senha:");
         String senha = scanner.next();
 
-        int usuarioEncontrado = 0;
+        boolean usuarioEncontrado = false;
         for (Client usuario : listaDeClientes) {
             if (usuario.getUsername().equals(login) && usuario.getPassword().equals(senha)) {
                 System.out.println("Usuário encontrado");
-                usuarioEncontrado = 1;
-                PainelCliente.acessar(scanner, usuario);
+                usuarioEncontrado = true;
+                if(usuario.getRole().getCod() == 2) {
+                    PainelCorretora.acessar(scanner, usuario);
+                } else {
+                    PainelCliente.acessar(scanner, usuario);
+                }
             }
         }
-        if(usuarioEncontrado == 0){
+        if(usuarioEncontrado == false){
             System.out.println("Usuário não encontrado.");
         }
 
