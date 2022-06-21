@@ -43,6 +43,8 @@ public class Client extends User implements AcessosUsuario {
         return profile;
     }
 
+
+
     @Override
     protected int generateId () {
         List<Client> clientsList = ClientRepository.listaDeClientes;

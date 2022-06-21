@@ -25,6 +25,10 @@ public abstract class User{
         return password;
     }
 
+    public Role getRole() {
+        return role;
+    }
+
     protected abstract int generateId ();
 
     public int getId() {
