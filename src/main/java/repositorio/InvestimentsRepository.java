@@ -13,4 +13,8 @@ public class InvestimentsRepository {
         listaDeInvestimentos.add(investimento);
     }
 
+    public static void removInvestimento(InvestimentoCliente investimento){
+        listaDeInvestimentos.remove(investimento);
+    }
+
 }

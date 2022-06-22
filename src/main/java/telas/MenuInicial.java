@@ -18,7 +18,7 @@ public class MenuInicial {
                     criarCliente.criar();
                     break;
                 case "2":
-                    LoginCliente acessoCliente = new LoginCliente();
+                    Login acessoCliente = new Login();
                     acessoCliente.logar();
                     break;
                 case "3":

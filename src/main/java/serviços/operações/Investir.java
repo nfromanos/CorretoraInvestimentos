@@ -1,4 +1,5 @@
 package serviços.operações;
+import Factorys.FactoryInvestimentos;
 import dominios.InvestimentoCorretora;
 import telas.consultas.ConsultarInvestimentosDoCliente;
 import dominios.Client;
@@ -10,8 +11,7 @@ import java.time.LocalTime;
 
 public class Investir {
     public void investir(Client usuario, double quantidadeComprada, String investimentoAdquirido, InvestimentoCorretora investimento){
-        InvestimentoCliente investimentoCliente = new InvestimentoCliente(usuario.getUsername(), TiposDeInvestimento.valueOf(investimentoAdquirido), investimento, quantidadeComprada, usuario.getProfile(), LocalTime.now(), LocalTime.now());
-        InvestimentsRepository.addInvestimento(investimentoCliente);
+        FactoryInvestimentos.factoryInvestimentos( usuario, quantidadeComprada, investimentoAdquirido, investimento);
         ConsultarInvestimentosDoCliente consultar = new ConsultarInvestimentosDoCliente();
         consultar.consultar(usuario.getUsername());
     }

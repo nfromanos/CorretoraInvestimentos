@@ -12,7 +12,7 @@ public class CalcularInvestimento {
         investimento.setTempoCompraOlhado(LocalTime.now());
         double varicaoDoAtivo = investimento.getInvestimento().getVariacaoDoAtivo();
         double valorDoInvestimento = investimento.getQuantidadeInvestida() * (Math.pow((varicaoDoAtivo), diferencaDoTempoDaCompraEVendaDoInvestimento));
-        if(Duration.between(investimento.getTempoCompraInvestimento(), LocalTime.now()).toSeconds() > 90){
+        if(Duration.between(investimento.getTempoCompraInvestimento(), LocalTime.now()).toSeconds() > 120){
             valorDoInvestimento = 0;
         }
         return valorDoInvestimento;

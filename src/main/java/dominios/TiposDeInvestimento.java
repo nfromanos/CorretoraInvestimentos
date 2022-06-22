@@ -1,10 +1,11 @@
 package dominios;
+import java.util.Collections;
 import java.util.HashSet;
 
 public enum TiposDeInvestimento {
-    ACAO(new HashSet<>()),
-    TESOURO(new HashSet<>()),
-    FUNDOS(new HashSet<>());
+    ACAO(new HashSet<>(Collections.singleton(new InvestimentoCorretora("PETRO", 1.006)))),
+    TESOURO(new HashSet<>(Collections.singleton(new InvestimentoCorretora("SELIC", 1.005)))),
+    FUNDOS(new HashSet<>(Collections.singleton(new InvestimentoCorretora("IMOB", 1.003))));
 
     private final HashSet<InvestimentoCorretora> tipos;
 
@@ -15,6 +16,4 @@ public enum TiposDeInvestimento {
     public HashSet<InvestimentoCorretora> getTipos() {
         return tipos;
     }
-
-
 }

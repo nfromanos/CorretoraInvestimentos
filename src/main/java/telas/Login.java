@@ -6,7 +6,7 @@ import telas.Cliente.PainelCliente;
 import java.util.Scanner;
 import static repositorio.ClientRepository.listaDeClientes;
 
-public class LoginCliente {
+public class Login {
 
     public void logar() {
         Scanner scanner = new Scanner(System.in);

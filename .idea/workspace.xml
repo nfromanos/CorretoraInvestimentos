@@ -4,37 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 20/Jun/22:&#10;  - Implementado Arrays de investimento no Enum Tipos de investimento.&#10; - Pendente ajustar os cálculos.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/Admin/PainelCorretora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/Admin/RemoverInvestimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarAtivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarTodosOsAtivos.java" afterDir="false" />
+    <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 22/Jun/22:&#10;  - PainelAdmin funcional.&#10;  - HashSet de investimentos funcional.&#10;  - Pendente Factorys e poder fazer mais de 1 investimento.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factorys/FactoryAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Factorys/FactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factorys/FactoryTipoDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryTipoDeInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factorys/FactoryInvestimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryInvestimentos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/InvestimentoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/InvestimentoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/InvestimentoCorretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/InvestimentoCorretora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/PegarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/PegarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CriarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Admin/CriarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Admin/PainelCorretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Admin/PainelCorretora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Cliente/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/CadastroCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Cliente/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/RealizarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Cliente/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/RetirarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/PainelCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/RealizarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/Cliente/RetirarInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/SimularInvestimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultaUnica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarClienteEspecifico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarAtivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarAtivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarListaDeClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarTodosOsClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultaGeral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarTodosOsAtivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarTodosOsAtivos.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
     <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="20/Jun/22:&#10;     - Criação do painel admin." />
@@ -62,7 +56,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/SOLID-OpenClosed" />
+        <entry key="$PROJECT_DIR$" value="feat/Array_de_Investimentos_no_Enum" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -262,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655862161087</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update 22/Jun/22:&#10;  - PainelAdmin funcional.&#10;  - HashSet de investimentos funcional.&#10;  - Pendente Factorys e poder fazer mais de 1 investimento.">
+      <created>1655926360632</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655926360632</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +295,23 @@
     <MESSAGE value="20/Jun/22:&#10;     - Criação do painel admin." />
     <MESSAGE value="Update 20/Jun/22:&#10;  - Implementado Arrays de investimento no Enum Tipos de investimento.&#10; -" />
     <MESSAGE value="Update 20/Jun/22:&#10;  - Implementado Arrays de investimento no Enum Tipos de investimento.&#10; - Pendente ajustar os cálculos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 20/Jun/22:&#10;  - Implementado Arrays de investimento no Enum Tipos de investimento.&#10; - Pendente ajustar os cálculos." />
+    <MESSAGE value="Update 22/Jun/22:&#10;  - PainelAdmin funcional.&#10;  - HashSet de investimentos funcional.&#10;  - Pendente Factorys e poder fazer mais de 1 investimento." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 22/Jun/22:&#10;  - PainelAdmin funcional.&#10;  - HashSet de investimentos funcional.&#10;  - Pendente Factorys e poder fazer mais de 1 investimento." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

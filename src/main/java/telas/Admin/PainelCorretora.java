@@ -1,7 +1,5 @@
 package telas.Admin;
-
 import java.util.Scanner;
-
 import telas.consultas.*;
 
 public class PainelCorretora {

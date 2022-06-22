@@ -1,5 +1,6 @@
 package dominios;
 import repositorio.ClientRepository;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Client extends User implements AcessosUsuario {
@@ -43,6 +44,7 @@ public class Client extends User implements AcessosUsuario {
     public String getProfile() {
         return profile;
     }
+
 
     @Override
     protected int generateId () {

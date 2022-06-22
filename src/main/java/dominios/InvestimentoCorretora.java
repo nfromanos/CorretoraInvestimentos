@@ -20,6 +20,6 @@ public class InvestimentoCorretora {
 
     @Override
     public String toString(){
-        return String.format("Nome do Investimento: %s%nVariação do Ativo: %s", getNomeDoInvestimento(), getVariacaoDoAtivo());
+        return String.format("%nNome do Investimento: %s%nVariação do Ativo: %s%n", getNomeDoInvestimento(), getVariacaoDoAtivo());
     }
 }
