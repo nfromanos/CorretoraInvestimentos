@@ -24,7 +24,7 @@ public class LoginCliente {
                 }
             }
         }
-        if(usuarioEncontrado == false){
+        if(!usuarioEncontrado){
             System.out.println("Usuário não encontrado.");
         }
 

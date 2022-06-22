@@ -1,5 +1,4 @@
 package telas;
-import telas.consultas.ConsultarClienteEspecifico;
 
 import java.util.Scanner;
 

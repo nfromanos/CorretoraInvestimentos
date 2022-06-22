@@ -1,9 +1,12 @@
 package telas;
 import dominios.Client;
+
+import java.util.Arrays;
 import java.util.Scanner;
+
+import dominios.TiposDeInvestimento;
 import telas.consultas.ConsultarInvestimentoDeTodosOsClientes;
 import telas.consultas.ConsultarListaDeClientes;
-import telas.consultas.ConsultarTodosOsClientes;
 
 public class PainelCorretora {
 
@@ -20,10 +23,11 @@ public class PainelCorretora {
             opcao = scanner.next();
             switch (opcao) {
                 case "1":
-
+                    CriarInvestimento criarInvestimento = new CriarInvestimento();
+                    criarInvestimento.criarInvestimento(scanner);
                     break;
                 case "2":
-
+                    System.out.println(Arrays.asList(TiposDeInvestimento.ACAO.getTipos()));
                     break;
                 case "3":
 

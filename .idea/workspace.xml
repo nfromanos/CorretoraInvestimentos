@@ -5,18 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b0bf66-562f-4029-a281-cfe1962a2f6c" name="Changes" comment="Update 20/Jun/22:&#10;  - Arrumando bugs.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/telas/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factorys/FactoryTipoDeInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominios/InvestimentoCorretora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serviços/PegarInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telas/CriarInvestimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Investimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/InvestimentoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/TiposDeInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/InvestimentsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/AtualizarValorDoInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/CalcularInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Investir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/operações/Retirar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviços/simulações/CalculoSimularInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/ImprimirValorRetiradoEValorAtual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/ImprimirValorRetiradoEValorAtual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/MenuInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/RealizarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/RetirarInvestimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/RetirarInvestimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentoDeTodosOsClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/consultas/ConsultarInvestimentosDoCliente.java" afterDir="false" />
     </list>
     <list id="cbc87bb5-673f-4cba-a6b5-07aec8f04b4d" name="Changes by joaof" comment="Changes by joaof" />
-    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="Changes by jpdef">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/CadastroCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/LoginCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telas/PainelCorretora.java" afterDir="false" />
-    </list>
+    <list id="f9cd304b-d17e-4150-aa34-316be7e19590" name="Changes by jpdef" comment="20/Jun/22:&#10;     - Criação do painel admin." />
     <list id="a6f448c5-26c6-43b3-8c0b-5a748184a5a7" name="Changes by Nicolau" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +53,10 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat/SOLID-OpenClosed" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/dominios/User.java">
-      <ranges>
-        <range start1="26" end1="26" start2="26" end2="30" changelist="a0b0bf66-562f-4029-a281-cfe1962a2f6c" />
-        <range start1="32" end1="32" start2="36" end2="38" changelist="f9cd304b-d17e-4150-aa34-316be7e19590" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,9 +83,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "full.screen.before.presentation.mode": "false",
     "last_opened_file_path": "C:/Users/jpdef/Desktop/TRablahoPOO/untitled",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -224,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655767326415</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update 20/Jun/22:&#10;  - Arrumando bugs.">
+      <created>1655770067700</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655770067700</updated>
+    </task>
+    <task id="LOCAL-00016" summary="20/Jun/22:&#10;     - Criação do painel admin.">
+      <created>1655770104865</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655770104865</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +275,7 @@
     <MESSAGE value="Update 13/Jun/22:&#10;  - Reformulação utilizando o conceito SOLID" />
     <MESSAGE value="Update 20/Jun/22:&#10;  - Utilização do conceito de aberto e fechado nas consultas de cliente e de investimento." />
     <MESSAGE value="Update 20/Jun/22:&#10;  - Arrumando bugs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 20/Jun/22:&#10;  - Arrumando bugs." />
+    <MESSAGE value="20/Jun/22:&#10;     - Criação do painel admin." />
+    <option name="LAST_COMMIT_MESSAGE" value="20/Jun/22:&#10;     - Criação do painel admin." />
   </component>
 </project>

@@ -1,15 +1,15 @@
 package repositorio;
 
-import dominios.Investimento;
+import dominios.InvestimentoCliente;
 
 
 import java.util.ArrayList;
 
 public class InvestimentsRepository {
 
-    public static final ArrayList<Investimento> listaDeInvestimentos = new ArrayList<>();
+    public static final ArrayList<InvestimentoCliente> listaDeInvestimentos = new ArrayList<>();
 
-    public static void addInvestimento(Investimento investimento) {
+    public static void addInvestimento(InvestimentoCliente investimento) {
         listaDeInvestimentos.add(investimento);
     }
 

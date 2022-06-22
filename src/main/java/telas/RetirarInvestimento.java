@@ -1,7 +1,7 @@
 package telas;
 import dominios.Client;
 import java.util.Scanner;
-import dominios.Investimento;
+import dominios.InvestimentoCliente;
 import serviços.operações.Retirar;
 
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
@@ -13,7 +13,7 @@ public class RetirarInvestimento {
         System.out.printf("%nQuanto deseja retirar?%n");
         double valorARetirar = scanner.nextDouble();
         Retirar retirar = new Retirar();
-        for (Investimento investimento : listaDeInvestimentos) {
+        for (InvestimentoCliente investimento : listaDeInvestimentos) {
             if (investimento.getUsername().equals(usuario.getUsername())) {
                 ImprimirValorRetiradoEValorAtual.quantidadeRetirada(valorARetirar, investimento);
             }

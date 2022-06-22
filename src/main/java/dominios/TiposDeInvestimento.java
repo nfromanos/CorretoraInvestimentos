@@ -1,22 +1,18 @@
 package dominios;
+import java.util.ArrayList;
 
 public enum TiposDeInvestimento {
-    ACAO(1.05, 2.5),
-    TESOURO(1.04, 5.3),
-    FUNDOS(1.03, 3.4);
+    ACAO(new ArrayList<>()),
+    TESOURO(new ArrayList<>()),
+    FUNDOS(new ArrayList<>());
 
-    private final double variacaoDoAtivo;
-    private final double valorDoAtivo;
+    private final ArrayList<InvestimentoCorretora> tipos;
 
-    public double getVariacaoDoAtivo() {
-        return variacaoDoAtivo;
+    TiposDeInvestimento(ArrayList<InvestimentoCorretora> tipos) {
+        this.tipos = tipos;
     }
 
-    TiposDeInvestimento(double variacaoDoAtivo, double valorDoAtivo) {
-        this.variacaoDoAtivo = variacaoDoAtivo;
-        this.valorDoAtivo = valorDoAtivo;
-
+    public ArrayList<InvestimentoCorretora> getTipos() {
+        return tipos;
     }
-
-
 }
