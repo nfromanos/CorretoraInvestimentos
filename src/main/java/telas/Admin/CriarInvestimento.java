@@ -1,4 +1,4 @@
-package telas;
+package telas.Admin;
 import Factorys.FactoryTipoDeInvestimento;
 import dominios.TiposDeInvestimento;
 import java.util.Arrays;

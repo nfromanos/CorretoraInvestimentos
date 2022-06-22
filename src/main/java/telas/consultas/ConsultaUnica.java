@@ -1,7 +1,7 @@
 package telas.consultas;
 
 
-public interface ConsultarCliente {
+public interface ConsultaUnica {
 
     void consultar(String clienteUsername);
 }

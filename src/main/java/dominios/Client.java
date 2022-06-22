@@ -29,10 +29,11 @@ public class Client extends User implements AcessosUsuario {
             return "AGRESSIVO";
         } else if (profileInt == 2) {
             return "MODERADO";
-        } else {
+        } else if ( profileInt==4) {
+            return "ADMIN";
+        } else{
             return "CONSERVADOR";
         }
-
     }
     public String getName() {
         return name;
@@ -43,12 +44,11 @@ public class Client extends User implements AcessosUsuario {
         return profile;
     }
 
-
-
     @Override
     protected int generateId () {
         List<Client> clientsList = ClientRepository.listaDeClientes;
         int sizeClientsList = clientsList.size();
         return id = sizeClientsList + 1;
     }
+
 }

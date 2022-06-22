@@ -1,8 +1,9 @@
-package telas;
+package telas.Cliente;
 import dominios.Client;
 import java.util.Scanner;
 import dominios.InvestimentoCliente;
 import serviços.operações.Retirar;
+import telas.ImprimirValorRetiradoEValorAtual;
 
 import static repositorio.InvestimentsRepository.listaDeInvestimentos;
 

@@ -1,5 +1,7 @@
 package telas;
 
+import telas.Cliente.CadastroCliente;
+
 import java.util.Scanner;
 
 public class MenuInicial {
@@ -20,8 +22,11 @@ public class MenuInicial {
                     acessoCliente.logar();
                     break;
                 case "3":
+                    SimularInvestimento.simulacao(scanner);
+                    break;
+                case "4":
                     break;
             }
-        } while(!opcao.equals("3"));
+        } while(!opcao.equals("4"));
     }
 }

@@ -1,4 +1,4 @@
-package telas;
+package telas.Cliente;
 import dominios.InvestimentoCorretora;
 import dominios.Profile;
 import dominios.TiposDeInvestimento;
@@ -19,7 +19,7 @@ public class RealizarInvestimento {
         String tipoDeInvestimentoEscolhido = scanner.next().toUpperCase();
         System.out.println("Escolha qual investimento desse tipo deseja adquirir.");
         System.out.println(TiposDeInvestimento.valueOf(tipoDeInvestimentoEscolhido).getTipos());
-        String ativoEscolhido = scanner.next();
+        String ativoEscolhido = scanner.next().toUpperCase();
         InvestimentoCorretora investimento = PegarInvestimento.pegarInvestimento(tipoDeInvestimentoEscolhido, ativoEscolhido);
         investir.investir(usuario, quantidadeComparada, tipoDeInvestimentoEscolhido, investimento);
 

@@ -1,6 +1,6 @@
 package telas.consultas;
 
-public interface ConsultarTodosOsClientes {
+public interface ConsultaGeral {
 
     void consultar();
 

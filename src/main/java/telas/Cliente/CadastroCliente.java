@@ -1,4 +1,4 @@
-package telas;
+package telas.Cliente;
 import dominios.Client;
 import dominios.Role;
 import repositorio.ClientRepository;
@@ -15,8 +15,9 @@ public class CadastroCliente {
         String login = scanner.next();
         System.out.println("Entre a senha:");
         String password = scanner.next();
+
         if(password.equals("SouAdmin")){
-            Client cliente = new Client(name, login, password, Role.ADMIN.returnRole(2), "2");
+            Client cliente = new Client(name, login, password, Role.ADMIN.returnRole(2), "4");
             ClientRepository.AddCliente(cliente);
         }else {
             System.out.println("Entre o seu perfil de investidor\n" +

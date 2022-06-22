@@ -2,7 +2,7 @@ package telas.consultas;
 import dominios.Client;
 import static repositorio.ClientRepository.listaDeClientes;
 
-public class ConsultarClienteEspecifico implements ConsultarCliente {
+public class ConsultarClienteEspecifico implements ConsultaUnica {
 
     @Override
     public void consultar(String clienteSelecionadoUsername) {

@@ -1,18 +1,20 @@
 package dominios;
-import java.util.ArrayList;
+import java.util.HashSet;
 
 public enum TiposDeInvestimento {
-    ACAO(new ArrayList<>()),
-    TESOURO(new ArrayList<>()),
-    FUNDOS(new ArrayList<>());
+    ACAO(new HashSet<>()),
+    TESOURO(new HashSet<>()),
+    FUNDOS(new HashSet<>());
 
-    private final ArrayList<InvestimentoCorretora> tipos;
+    private final HashSet<InvestimentoCorretora> tipos;
 
-    TiposDeInvestimento(ArrayList<InvestimentoCorretora> tipos) {
+    TiposDeInvestimento(HashSet<InvestimentoCorretora> tipos) {
         this.tipos = tipos;
     }
 
-    public ArrayList<InvestimentoCorretora> getTipos() {
+    public HashSet<InvestimentoCorretora> getTipos() {
         return tipos;
     }
+
+
 }

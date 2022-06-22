@@ -1,5 +1,8 @@
 package telas;
 import dominios.Client;
+import telas.Admin.PainelCorretora;
+import telas.Cliente.PainelCliente;
+
 import java.util.Scanner;
 import static repositorio.ClientRepository.listaDeClientes;
 
@@ -18,7 +21,7 @@ public class LoginCliente {
                 System.out.println("Usuário encontrado");
                 usuarioEncontrado = true;
                 if(usuario.getRole().getCod() == 2) {
-                    PainelCorretora.acessar(scanner, usuario);
+                    PainelCorretora.acessar(scanner);
                 } else {
                     PainelCliente.acessar(scanner, usuario);
                 }

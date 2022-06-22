@@ -1,6 +1,7 @@
 package dominios;
 
 import java.time.LocalTime;
+import java.util.HashSet;
 
 public class InvestimentoCliente extends Client {
 
@@ -19,7 +20,7 @@ public class InvestimentoCliente extends Client {
 //        this.tempoCompraOlhado = tempoCompraOlhado;
 //    }
 
-    public InvestimentoCliente(String username, TiposDeInvestimento tipoDoInvestimento, InvestimentoCorretora investimento, double quantidadeInvestida, String profile, LocalTime tempoCompraInvestimento, LocalTime tempoCompraOlhado) {
+    public InvestimentoCliente(String username, TiposDeInvestimento tipoDoInvestimento, InvestimentoCorretora investimento,double quantidadeInvestida, String profile, LocalTime tempoCompraInvestimento, LocalTime tempoCompraOlhado) {
         super(username, profile);
         this.tipoDoInvestimento = tipoDoInvestimento;
         this.investimento = investimento;

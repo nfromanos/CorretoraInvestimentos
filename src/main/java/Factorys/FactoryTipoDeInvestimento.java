@@ -7,7 +7,7 @@ public class FactoryTipoDeInvestimento {
     public static String criarInvestimento(String tipoDeInvestimentoSelecionado, String nomeDoInvestimentoSelecionado, double variacaoDoInvestimento){
         InvestimentoCorretora investimentoNovo = new InvestimentoCorretora(nomeDoInvestimentoSelecionado, variacaoDoInvestimento);
         TiposDeInvestimento.valueOf(tipoDeInvestimentoSelecionado).getTipos().add(investimentoNovo);
-        return String.format("Investimento criado com sucesso.%nTipo do Investimento: %s%nNome do investimento: %s%n Variação do Investimento: %s", TiposDeInvestimento.valueOf(tipoDeInvestimentoSelecionado), investimentoNovo.getNomeDoInvestimento(), investimentoNovo.getVariacaoDoAtivo());
+        return String.format("Investimento criado com sucesso.%nTipo do Investimento: %s%nNome do investimento: %s%nVariação do Investimento: %s", TiposDeInvestimento.valueOf(tipoDeInvestimentoSelecionado), investimentoNovo.getNomeDoInvestimento(), investimentoNovo.getVariacaoDoAtivo());
     }
 
 }
